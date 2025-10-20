@@ -1,0 +1,3356 @@
+{
+    "Tập 1: Cơ bản về Móng và Giải phẫu": [
+        {
+            "question": "Xương ngón tay còn được gọi là:",
+            "options": [
+                "Lóng tay, đốt tay",
+                "Xương cẳng chân",
+                "Xương bánh chè",
+                "Xương mác"
+            ],
+            "answer": "Lóng tay, đốt tay"
+        },
+        {
+            "question": "Cơ nào dãn ngón tay và khoảng cách các ngón tay:",
+            "options": [
+                "Cơ xoè",
+                "Cơ lập bàn chân",
+                "Cơ duỗi",
+                "Cơ khép"
+            ],
+            "answer": "Cơ xoè"
+        },
+        {
+            "question": "Phần nào của móng nằm trên đệm (giường) móng:",
+            "options": [
+                "Đầu móng tay/ free edge",
+                "Thân móng",
+                "Da mọc nền bán nguyệt móng (Eponychium)",
+                "Gốc móng"
+            ],
+            "answer": "Thân móng"
+        },
+        {
+            "question": "Móng tay mọc dài ra khỏi đầu móng gọi là:",
+            "options": [
+                "Thân móng",
+                "Đầu móng tay/ free edge",
+                "Gốc non (móng non)",
+                "Màng bọc móng"
+            ],
+            "answer": "Đầu móng tay/ free edge"
+        },
+        {
+            "question": "Dùng dũa điện như thế nào để cắt bột:",
+            "options": [
+                "180 độ",
+                "45 độ",
+                "90 độ",
+                "60 độ"
+            ],
+            "answer": "90 độ"
+        },
+        {
+            "question": "Dùng dũa điện để dũa móng bột:",
+            "options": [
+                "90 độ",
+                "180 độ",
+                "45 độ",
+                "60 độ"
+            ],
+            "answer": "180 độ"
+        },
+        {
+            "question": "Muốn tháo móng gel phải làm sao:",
+            "options": [
+                "Dùng dũa điện",
+                "Ngâm nước nóng",
+                "Nhúng acetone",
+                "Cắt bằng kềm"
+            ],
+            "answer": "Nhúng acetone"
+        },
+        {
+            "question": "Khách muốn tháo gel mà không có dụng cụ đựng acetone thì:",
+            "options": [
+                "Tháo bằng dũa điện",
+                "Dùng cồn",
+                "Thấm acetone vào bông gòn, quấn giấy bạc",
+                "Dùng non-acetone"
+            ],
+            "answer": "Thấm acetone vào bông gòn, quấn giấy bạc"
+        },
+        {
+            "question": "Khi làm móng bột chất nào sau đây làm nóng móng tay:",
+            "options": [
+                "Monomer",
+                "Polymer",
+                "Primer",
+                "Top coat"
+            ],
+            "answer": "Primer"
+        },
+        {
+            "question": "Chất monomer nào có mùi hương thoang thoảng (1 trong những chất nào nhẹ mùi nhất):",
+            "options": [
+                "Methyl methacrylic",
+                "Ethyl acrylic",
+                "Acetone",
+                "Primer"
+            ],
+            "answer": "Ethyl acrylic"
+        },
+        {
+            "question": "Loại monomer nào sau đây mà FDA (cơ quan bảo vệ thực phẩm và dược phẩm) cấm sử dụng:",
+            "options": [
+                "Ethyl acrylic",
+                "Primer",
+                "Methyl methacrylic",
+                "Monomer dạng lỏng"
+            ],
+            "answer": "Methyl methacrylic"
+        },
+        {
+            "question": "Chất lỏng trong phòng bị khô, lý do vì sao:",
+            "options": [
+                "Đông lại",
+                "Bay hơi",
+                "Hiện tượng vật lý",
+                "Polymer hoá"
+            ],
+            "answer": "Bay hơi"
+        },
+        {
+            "question": "Chai nước sơn để trong phòng bay hơi và khô đó là sự biến đổi (hiện tượng):",
+            "options": [
+                "Hiện tượng hóa học",
+                "Hiện tượng vật lý",
+                "Polymer hoá",
+                "Sự phản ứng hóa học"
+            ],
+            "answer": "Hiện tượng vật lý"
+        },
+        {
+            "question": "Chất lỏng để ở trong phòng lạnh (nhiệt độ phòng) và bị đông lại sẽ trở thành chất gì:",
+            "options": [
+                "Chất hơi",
+                "Chất rắn",
+                "Chất xúc tác (catalyst)",
+                "Dung dịch"
+            ],
+            "answer": "Chất rắn"
+        },
+        {
+            "question": "Móng tay bị kẹt cửa bầm tim thì sẽ bị sao:",
+            "options": [
+                "Nấm móng",
+                "Rối loạn móng",
+                "Sự bong móng (Onycholysis)",
+                "Móng mọc lộn vào"
+            ],
+            "answer": "Rối loạn móng"
+        },
+        {
+            "question": "Dây thần kinh kéo dài tới đầu ngón tay út gọi là gì:",
+            "options": [
+                "Digital",
+                "Radius",
+                "Unar",
+                "Spinal cords"
+            ],
+            "answer": "Unar"
+        },
+        {
+            "question": "Dây thần kinh từ trung tâm đến đầu các ngón tay:",
+            "options": [
+                "Unar",
+                "Radius",
+                "Digital",
+                "Spinal cords"
+            ],
+            "answer": "Digital"
+        },
+        {
+            "question": "Dây thần kinh chạy tới ngón tay cái là gì:",
+            "options": [
+                "Unar",
+                "Digital",
+                "Radius",
+                "Spinal cords"
+            ],
+            "answer": "Radius"
+        },
+        {
+            "question": "Xương bánh chè (xương mở nắp đầu gối) còn được gọi là:",
+            "options": [
+                "Xương cẳng chân",
+                "Xương đầu gối",
+                "Xương chày",
+                "Xương mác"
+            ],
+            "answer": "Xương đầu gối"
+        },
+        {
+            "question": "Tháo móng bột cho nhanh thì:",
+            "options": [
+                "Dũa bằng máy ở tốc độ cao",
+                "Ngâm acetone",
+                "Tháo bằng dũa giấy",
+                "Sử dụng chất tẩy không có acetone"
+            ],
+            "answer": "Ngâm acetone"
+        }
+    ],
+    "Tập 2: Chăm sóc Chân và Phản ứng Hóa học": [
+        {
+            "question": "Xương gì nằm bên ngón chân lớn (ngón cái):",
+            "options": [
+                "Xương mác",
+                "Xương chày",
+                "Xương bánh chè",
+                "Xương đầu gối"
+            ],
+            "answer": "Xương chày"
+        },
+        {
+            "question": "Xương gì nằm bên ngón chân nhỏ (ngón út):",
+            "options": [
+                "Xương chày",
+                "Xương bánh chè",
+                "Xương mác",
+                "Xương cẳng chân"
+            ],
+            "answer": "Xương mác"
+        },
+        {
+            "question": "Khách làm móng bột quay lại phàn nàn móng bị nứt ở giữa:",
+            "options": [
+                "Do dùng sai Primer",
+                "Do dùng sai monomer",
+                "Do dùng sai polymer",
+                "Do móng quá mỏng"
+            ],
+            "answer": "Do dùng sai polymer"
+        },
+        {
+            "question": "Danh từ khác gọi Hypertrophy:",
+            "options": [
+                "Onycholysis",
+                "Onychausis",
+                "Onychia",
+                "Lác đồng tiền"
+            ],
+            "answer": "Onychausis"
+        },
+        {
+            "question": "Gel gì dùng để tạo móng cong và định hình:",
+            "options": [
+                "Gel bóng",
+                "Gel màu",
+                "Gel xây dựng (builder gel)",
+                "UV gel"
+            ],
+            "answer": "Gel xây dựng"
+        },
+        {
+            "question": "Đầu dũa nào dùng để dũa bột:",
+            "options": [
+                "Kim cương",
+                "Niken",
+                "Cát-bua (carbide)",
+                "Mặt mịn của dũa giấy"
+            ],
+            "answer": "Niken"
+        },
+        {
+            "question": "Cơ thần kinh điều khiển các cơ:",
+            "options": [
+                "Unar",
+                "Digital",
+                "Radius",
+                "Spinal cords"
+            ],
+            "answer": "Spinal cords"
+        },
+        {
+            "question": "Cách tư vấn nào khi khách muốn dùng dịch vụ tại nhà:",
+            "options": [
+                "Từ chối dịch vụ",
+                "Tư vấn sản phẩm phù hợp nhất với khách",
+                "Giới thiệu đi bác sĩ",
+                "Khuyên làm móng giả"
+            ],
+            "answer": "Tư vấn sản phẩm phù hợp nhất với khách"
+        },
+        {
+            "question": "Bước cuối cùng sau khi làm gel tay, tẩy bỏ hết chất dính:",
+            "options": [
+                "Đặt lịch mới",
+                "Bôi dầu lên da quanh móng",
+                "Dùng dũa mịn",
+                "Rửa tay"
+            ],
+            "answer": "Bôi dầu lên da quanh móng"
+        },
+        {
+            "question": "Xương ống chân được gọi là:",
+            "options": [
+                "Xương chày",
+                "Xương mác",
+                "Xương cẳng chân",
+                "Xương đầu gối"
+            ],
+            "answer": "Xương cẳng chân"
+        },
+        {
+            "question": "Khách hàng đến muốn làm dịch vụ móng nhưng tay nứt đỏ và đau:",
+            "options": [
+                "Tiến hành dịch vụ nhanh chóng",
+                "Từ chối dịch vụ, giới thiệu đi bác sĩ",
+                "Thẩm định đánh giá tình trạng ngón tay",
+                "Khuyên dùng dầu thoa da"
+            ],
+            "answer": "Từ chối dịch vụ, giới thiệu đi bác sĩ"
+        },
+        {
+            "question": "Ngâm móng trong nước để làm bàn tay:",
+            "options": [
+                "Làm cứng móng",
+                "Mềm vùng liên bán nguyệt móng",
+                "Khử trùng",
+                "Tiệt trùng"
+            ],
+            "answer": "Mềm vùng liên bán nguyệt móng"
+        },
+        {
+            "question": "SDS (MSDS) liệt kê các chất độc mà sản phẩm bị yêu cầu của:",
+            "options": [
+                "FDA",
+                "EPA",
+                "OSHA",
+                "Hội đồng y tế tiểu bang"
+            ],
+            "answer": "OSHA"
+        },
+        {
+            "question": "Monomer kết hợp với polymer tạo ra quá trình phản ứng hóa học còn được gọi là:",
+            "options": [
+                "Hiện tượng vật lý",
+                "Sự biến đổi vật lý",
+                "Sự phản ứng hóa học",
+                "Bay hơi"
+            ],
+            "answer": "Sự phản ứng hóa học"
+        },
+        {
+            "question": "Các chất được làm sạch, khô cho vào tủ chiếu đèn cực tím:",
+            "options": [
+                "Vệ sinh",
+                "Khử trùng",
+                "Khử trùng theo tiêu chuẩn bệnh viện",
+                "Tiệt trùng"
+            ],
+            "answer": "Khử trùng theo tiêu chuẩn bệnh viện"
+        },
+        {
+            "question": "Khóe móng chân nên được tạo dáng như thế nào:",
+            "options": [
+                "Vuông góc",
+                "Tròn",
+                "Nhọn",
+                "Thẳng, tròn ở 2 bên góc"
+            ],
+            "answer": "Tròn"
+        },
+        {
+            "question": "Khách không muốn gắn tips nên khuyên khách dùng gel gì:",
+            "options": [
+                "Gel màu",
+                "Gel bóng",
+                "Bọc đầu móng (gel xây dựng)",
+                "Gel dẻo UV"
+            ],
+            "answer": "Bọc đầu móng"
+        },
+        {
+            "question": "Làm sạch mạnh trên bề mặt khô không thấm gọi là:",
+            "options": [
+                "Vệ sinh",
+                "Khử trùng",
+                "Tiệt trùng",
+                "Sát trùng"
+            ],
+            "answer": "Khử trùng"
+        },
+        {
+            "question": "Làm sạch nhẹ trên bề mặt nhìn thấy:",
+            "options": [
+                "Khử trùng",
+                "Vệ sinh",
+                "Tiệt trùng",
+                "Khử trùng mức độ bệnh viện"
+            ],
+            "answer": "Vệ sinh"
+        },
+        {
+            "question": "Massage mạnh trên bề mặt:",
+            "options": [
+                "Động tác nhồi bóp",
+                "Massage nhẹ trên móng",
+                "Massage mạnh trên cánh tay",
+                "Vuốt nhẹ"
+            ],
+            "answer": "Massage mạnh trên cánh tay"
+        }
+    ],
+    "Tập 3: Kỹ thuật và Vấn đề Móng": [
+        {
+            "question": "Tại sao khi dùng máy dũa trên móng làm móng khách bị sần:",
+            "options": [
+                "Do dũa quá lâu",
+                "Dùng sai cách đặt dũa",
+                "Do dùng sai loại đầu dũa",
+                "Do dùng sai tốc độ"
+            ],
+            "answer": "Dùng sai cách đặt dũa"
+        },
+        {
+            "question": "Khách làm dịch vụ chân, nhân viên thấy chân khách bị tróc da, mụn nước, tại sao:",
+            "options": [
+                "Tình trạng tim",
+                "Áp suất máu cao",
+                "Nấm chân",
+                "Da khô"
+            ],
+            "answer": "Nấm chân"
+        },
+        {
+            "question": "Chất gì được chữa trị bằng đèn LED:",
+            "options": [
+                "Bột acrylic",
+                "Nước sơn móng truyền thống",
+                "Gel (UV gel)",
+                "Primer"
+            ],
+            "answer": "Gel"
+        },
+        {
+            "question": "Khăn sau khi dùng cho khách nên làm gì:",
+            "options": [
+                "Phơi khô để dùng lại",
+                "Gấp gọn gàng",
+                "Bỏ vào thùng nắp đậy kín",
+                "Giặt ngay"
+            ],
+            "answer": "Bỏ vào thùng nắp đậy kín"
+        },
+        {
+            "question": "Khăn làm cho khách:",
+            "options": [
+                "Dùng lại",
+                "Đổi khăn mới",
+                "Giặt khô",
+                "Tẩy uế"
+            ],
+            "answer": "Đổi khăn mới"
+        },
+        {
+            "question": "Mùi hóa chất trong phòng làm việc bay lên gọi là:",
+            "options": [
+                "Chất lỏng",
+                "Chất hơi",
+                "Chất rắn",
+                "Khói"
+            ],
+            "answer": "Chất hơi"
+        },
+        {
+            "question": "Móng khóe là móng gì:",
+            "options": [
+                "Móng chẻ",
+                "Móng cạnh (Ingrown nail)",
+                "Móng vỏ trứng",
+                "Móng nhọn"
+            ],
+            "answer": "Móng cạnh"
+        },
+        {
+            "question": "Khi làm dịch vụ cho khách xong thì nên làm gì tiếp theo:",
+            "options": [
+                "Dọn dẹp bàn ngay",
+                "Tham khảo ý khách",
+                "Ngưng làm",
+                "Khử trùng tay"
+            ],
+            "answer": "Tham khảo ý khách"
+        },
+        {
+            "question": "Trước khi làm dịch vụ chân, nhân viên nên:",
+            "options": [
+                "Sát trùng tay thợ",
+                "Khử trùng tay",
+                "Đeo bao tay",
+                "Tẩy uế dụng cụ"
+            ],
+            "answer": "Khử trùng tay"
+        },
+        {
+            "question": "Mụn cóc còn gọi là:",
+            "options": [
+                "Nấm chân",
+                "Mụn cơm",
+                "Lác đồng tiền",
+                "Melanoma"
+            ],
+            "answer": "Mụn cơm"
+        },
+        {
+            "question": "Khách hàng vào tiệm có 1 ngón tay bị băng bó nhưng vẫn muốn làm dịch vụ, thợ nên làm gì:",
+            "options": [
+                "Tiến hành dịch vụ bình thường",
+                "Từ chối ngay lập tức",
+                "Thẩm định đánh giá tình trạng ngón tay",
+                "Khuyên đi bác sĩ"
+            ],
+            "answer": "Thẩm định đánh giá tình trạng ngón tay"
+        },
+        {
+            "question": "Xương chày còn gọi là:",
+            "options": [
+                "Xương mác",
+                "Xương ống chân",
+                "Xương bánh chè",
+                "Xương cổ chân"
+            ],
+            "answer": "Xương ống chân"
+        },
+        {
+            "question": "Làm sạch đầu móng bằng dụng cụ gì:",
+            "options": [
+                "Cây nạo",
+                "Tăm thấm bông gòn",
+                "Bàn chải móng",
+                "Kềm cắt da"
+            ],
+            "answer": "Tăm thấm bông gòn"
+        },
+        {
+            "question": "Đặt tay khách dưới đèn UV nhưng khách hàng than phiền móng bị ẩm và nóng vì sao:",
+            "options": [
+                "Do dùng quá nhiều monomer",
+                "Do móng quá mỏng",
+                "Do sai cách sử dụng (đèn hoặc chất gel)",
+                "Do bôi primer lên quá nhiều"
+            ],
+            "answer": "Do sai cách sử dụng"
+        },
+        {
+            "question": "Khi khách hàng than phiền nóng (khi làm bột) vì sao:",
+            "options": [
+                "Do hơ đèn quá lâu",
+                "Bôi primer lên quá nhiều",
+                "Do dùng sai polymer",
+                "Dùng dũa điện quá lâu"
+            ],
+            "answer": "Bôi primer lên quá nhiều"
+        },
+        {
+            "question": "Chất xúc tác:",
+            "options": [
+                "Làm phản ứng hóa học xảy ra chậm hơn",
+                "Làm phản ứng hóa học xảy ra nhanh hơn",
+                "Làm phản ứng vật lý",
+                "Làm chất lỏng bay hơi"
+            ],
+            "answer": "Làm phản ứng hóa học xảy ra nhanh hơn"
+        },
+        {
+            "question": "Chất primer bôi ở đâu:",
+            "options": [
+                "Đầu móng",
+                "Da quanh móng",
+                "Thân móng",
+                "Gốc móng"
+            ],
+            "answer": "Thân móng"
+        },
+        {
+            "question": "Xương bàn tay là:",
+            "options": [
+                "Xương cẳng tay",
+                "Xương cổ tay",
+                "Xương bàn tay",
+                "Xương ngón tay"
+            ],
+            "answer": "Xương bàn tay"
+        },
+        {
+            "question": "Xương dài của chân gọi là:",
+            "options": [
+                "Xương bàn chân",
+                "Xương cổ chân, xương bánh chè",
+                "Xương cẳng chân, xương ống chân",
+                "Xương mác"
+            ],
+            "answer": "Xương cẳng chân, xương ống chân"
+        },
+        {
+            "question": "Khách bị dị ứng 1 thành phần trong nước rửa tay, dùng gì thay thế:",
+            "options": [
+                "Xà phòng thông thường",
+                "Sát trùng dạng lỏng",
+                "Cồn 70 độ",
+                "Nước muối sinh lý"
+            ],
+            "answer": "Sát trùng dạng lỏng"
+        }
+    ],
+    "Tập 4: Dịch vụ Gel và Móng Giả": [
+        {
+            "question": "Khách làm liquid bị dị ứng, nên tư vấn khách làm dịch vụ gì:",
+            "options": [
+                "Móng bột",
+                "Đắp lụa",
+                "UV gel",
+                "Sơn thường"
+            ],
+            "answer": "UV gel"
+        },
+        {
+            "question": "Loại gel nào tránh làm trôi màu và giữ đầu móng tay không dùng đèn:",
+            "options": [
+                "Gel xây dựng",
+                "Gel bóng",
+                "Gel màu",
+                "Gel dẻo"
+            ],
+            "answer": "Gel bóng"
+        },
+        {
+            "question": "Loại gel nào sử dụng kết dính polymer và monomer:",
+            "options": [
+                "UV Gel",
+                "Gel bóng",
+                "Gel xây dựng",
+                "Gel màu"
+            ],
+            "answer": "Gel xây dựng"
+        },
+        {
+            "question": "Sau khi làm dịch vụ, người thợ phải làm gì:",
+            "options": [
+                "Tẩy uế dụng cụ",
+                "Đặt lịch mới",
+                "Khử trùng tay",
+                "Lau chùi bàn"
+            ],
+            "answer": "Đặt lịch mới"
+        },
+        {
+            "question": "Với người hay cắn móng tay thì thợ phải gắn tip cho họ như thế nào:",
+            "options": [
+                "1/2 thân móng",
+                "Chỉ ở đầu móng",
+                "Toàn thân móng",
+                "Vành khuyên tròn"
+            ],
+            "answer": "Toàn thân móng"
+        },
+        {
+            "question": "Móng nào yếu nhất?",
+            "options": [
+                "Móng bầu dục",
+                "Móng vuông",
+                "Móng nhọn",
+                "Móng tròn"
+            ],
+            "answer": "Móng nhọn"
+        },
+        {
+            "question": "Móng tip vành khuyên tròn dùng cho móng tay?",
+            "options": [
+                "Móng nhọn",
+                "Móng bầu dục",
+                "Móng vuông",
+                "Móng ngắn"
+            ],
+            "answer": "Móng bầu dục"
+        },
+        {
+            "question": "Hành động vệ sinh nào quan trọng nhất để ngăn ngừa vi trùng lây nhiễm từ người này sang người khác?",
+            "options": [
+                "Đeo bao tay",
+                "Rửa tay (vệ sinh) bằng xà phòng + nước",
+                "Khử trùng bàn",
+                "Tiệt trùng dụng cụ"
+            ],
+            "answer": "Rửa tay (vệ sinh) bằng xà phòng+ nước"
+        },
+        {
+            "question": "Phần nối dài của biểu bì ở nền thân móng là gì?",
+            "options": [
+                "Hyponychium",
+                "Gốc móng",
+                "Da mọc nền bán nguyệt móng (Eponychium)",
+                "Đầu móng"
+            ],
+            "answer": "Da mọc nền bán nguyệt móng (Eponychium)"
+        },
+        {
+            "question": "Dụng cụ gì để cắt da biểu bì ở vùng bán nguyệt?",
+            "options": [
+                "Kềm cắt móng",
+                "Kềm cắt da",
+                "Cây sủi kim loại",
+                "Dũa giấy"
+            ],
+            "answer": "Kềm cắt da"
+        },
+        {
+            "question": "Cái nào MSDS có nêu lên?",
+            "options": [
+                "Giá sản phẩm",
+                "Các thành phần nguy hiểm",
+                "Cách sử dụng dịch vụ",
+                "Quy trình massage"
+            ],
+            "answer": "Các thành phần nguy hiểm"
+        },
+        {
+            "question": "Không làm thăng bằng móng bột, móng sẽ thấy?",
+            "options": [
+                "Tự nhiên và bằng phẳng",
+                "Không tự nhiên, không bằng phẳng",
+                "Mỏng và mềm",
+                "Dễ gãy"
+            ],
+            "answer": "Không tự nhiên, không bằng phẳng"
+        },
+        {
+            "question": "Với điều kiện nào sau đây, đòi hỏi MSDS cho mỗi sản phẩm hữu hiệu?",
+            "options": [
+                "FDA",
+                "EPA",
+                "OSHA",
+                "Hội đồng y tế"
+            ],
+            "answer": "OSHA"
+        },
+        {
+            "question": "Loại cọ làm móng bột nào giữ số lượng chất lỏng ít nhất?",
+            "options": [
+                "Tròn",
+                "Dẹt",
+                "Nhọn",
+                "Vuông"
+            ],
+            "answer": "Nhọn"
+        },
+        {
+            "question": "Tình trạng nào của thân móng làm cho sự dính chặt tốt hơn?",
+            "options": [
+                "Ẩm ướt",
+                "Khô ráo",
+                "Bóng sáng",
+                "Sần sùi"
+            ],
+            "answer": "Khô ráo"
+        },
+        {
+            "question": "Cơ quan bảo vệ cơ thể khỏi độc tố (toxin)?",
+            "options": [
+                "Ruột non",
+                "Gan",
+                "Da",
+                "Tế bào máu"
+            ],
+            "answer": "Da"
+        },
+        {
+            "question": "Khi vi khuẩn xâm nhập vào sinh vật sống và động vật sống (70% không gây bệnh), nuôi dưỡng?",
+            "options": [
+                "Dụng cụ",
+                "Vật thể sống",
+                "Môi trường xung quanh",
+                "Chất lỏng"
+            ],
+            "answer": "Vật thể sống"
+        },
+        {
+            "question": "Bàn chải móng phải được bố trí trên bàn sau khi?",
+            "options": [
+                "Khử trùng tay",
+                "Sau khi vệ sinh bàn",
+                "Sơn móng",
+                "Ngâm móng"
+            ],
+            "answer": "Sau khi vệ sinh bàn"
+        },
+        {
+            "question": "Nhân viên dùng tay để lấy dụng cụ trong dung dịch sát trùng (hoặc rớt dụng cụ xuống sàn, nhặt lên làm) nhân viên đó đã?",
+            "options": [
+                "Vệ sinh đúng cách",
+                "Khử trùng",
+                "Phơi nhiễm chéo (Cross-contamination)",
+                "Tiệt trùng"
+            ],
+            "answer": "Phơi nhiễm chéo"
+        },
+        {
+            "question": "Phương thức trước khi làm móng bột bao gồm?",
+            "options": [
+                "Cắt da chết",
+                "Chào đón khách, mời khách rửa tay với dung dịch sát trùng.",
+                "Dũa móng",
+                "Đắp bột"
+            ],
+            "answer": "Chào đón khách, mời khách rửa tay với dung dịch sát trùng."
+        }
+    ],
+    "Tập 5: Quy trình và An toàn Lao động": [
+        {
+            "question": "Móng chân nên dũa thế nào?",
+            "options": [
+                "Tròn",
+                "Nhọn",
+                "Thẳng, tròn ở 2 bên góc",
+                "Bầu dục"
+            ],
+            "answer": "Thẳng, tròn ở 2 bên góc"
+        },
+        {
+            "question": "Khi cắt trúng tay khách, đầu tiên phải làm gì?",
+            "options": [
+                "Tiếp tục làm",
+                "Ngưng dịch vụ",
+                "Dùng nước sát trùng",
+                "Đeo bao tay"
+            ],
+            "answer": "Ngưng dịch vụ"
+        },
+        {
+            "question": "Động tác trượt khi massage chân có kèm động tác gì?",
+            "options": [
+                "Đấm bóp",
+                "Nhồi bóp, xoa bóp",
+                "Vuốt nhẹ",
+                "Vỗ"
+            ],
+            "answer": "Nhồi bóp, xoa bóp"
+        },
+        {
+            "question": "Khi massage thợ vỗ vào tay khách, động tác này còn gọi là gì?",
+            "options": [
+                "Xoa bóp",
+                "Đấm bóp",
+                "Vuốt nhẹ",
+                "Nhồi bóp"
+            ],
+            "answer": "Đấm bóp"
+        },
+        {
+            "question": "Khách dùng móng bột một thời gian phát hiện dị ứng với liquid, nên tư vấn khách dùng dịch vụ nào?",
+            "options": [
+                "Móng bột lại",
+                "Gel UV",
+                "Sơn thường",
+                "Đắp lụa"
+            ],
+            "answer": "Gel UV"
+        },
+        {
+            "question": "Khách muốn dùng dịch vụ nhưng không muốn gắn móng giả, nên khuyên khách dùng dịch vụ nào?",
+            "options": [
+                "Gắn tip",
+                "Gel xây dựng (bịt đầu móng)",
+                "Móng bột",
+                "Đắp lụa"
+            ],
+            "answer": "Gel xây dựng (bịt đầu móng)"
+        },
+        {
+            "question": "Khách đến làm refill nhưng bị gãy móng bột, vẫn còn đỏ và đau, nên làm gì với khách?",
+            "options": [
+                "Dũa phần còn lại",
+                "Ngưng dịch vụ, để mặc kệ nó, không đá động đến",
+                "Gắn móng giả mới",
+                "Khuyên về nhà tự tháo"
+            ],
+            "answer": "Ngưng dịch vụ, để mặc kệ nó, không đá động đến"
+        },
+        {
+            "question": "Nhân viên ăn giữa giờ làm tại bàn làm việc, sau khi ăn xong thấy chóng mặt và chảy nước mắt. Nhân viên nên làm gì trước đó?",
+            "options": [
+                "Đeo khẩu trang",
+                "Mở cửa sổ",
+                "Không ăn tại bàn làm việc",
+                "Uống nhiều nước"
+            ],
+            "answer": "Không ăn tại bàn làm việc"
+        },
+        {
+            "question": "Cơ gì dang các ngón tay?",
+            "options": [
+                "Cơ khép",
+                "Cơ xoè",
+                "Cơ lập bàn chân",
+                "Cơ duỗi"
+            ],
+            "answer": "Cơ xoè"
+        },
+        {
+            "question": "Xương cổ chân được kết hợp giữa?",
+            "options": [
+                "Xương bánh chè + xương chày",
+                "Xương chày + xương mác (ankles + tarsal bones)",
+                "Xương chày + xương bàn chân",
+                "Xương mác + xương bàn chân"
+            ],
+            "answer": "Xương chày + xương mác (ankles+ tarsal bones)"
+        },
+        {
+            "question": "Khách hàng đắp móng bột 1 thời gian thì da bị đỏ và sưng tấy lên, khách đến thì nên làm gì?",
+            "options": [
+                "Tháo móng ngay",
+                "Để mặc kệ nó",
+                "Thẩm định đánh giá",
+                "Ngâm acetone"
+            ],
+            "answer": "Để mặc kệ nó"
+        },
+        {
+            "question": "Xương ống chân nằm giữa?",
+            "options": [
+                "Xương đùi",
+                "Xương cổ chân",
+                "Xương chày và xương mác",
+                "Xương bánh chè"
+            ],
+            "answer": "Xương chày và xương mác"
+        },
+        {
+            "question": "Cơ giúp cử động ngón chân?",
+            "options": [
+                "Cơ lập bàn chân",
+                "Cơ xoè ngón (abductor), cơ khép (add)",
+                "Cơ duỗi",
+                "Cơ cẳng chân"
+            ],
+            "answer": "Cơ xoè ngón (abductor), cơ khép (add)"
+        },
+        {
+            "question": "Cơ mà để nhấc bàn chân?",
+            "options": [
+                "Cơ xoè ngón",
+                "Cơ khép ngón",
+                "Cơ lập bàn chân",
+                "Cơ cẳng chân"
+            ],
+            "answer": "Cơ lập bàn chân"
+        },
+        {
+            "question": "Cơ ngón cái nuôi gì trong bàn tay?",
+            "options": [
+                "Cẳng tay",
+                "Cổ tay",
+                "Ngón tay",
+                "Bàn tay"
+            ],
+            "answer": "Ngón tay"
+        },
+        {
+            "question": "Móng tip và móng acrylic khác nhau cái gì?",
+            "options": [
+                "Tip không cần monomer",
+                "Đắp từ gốc đến đầu móng",
+                "Tip không dùng đèn",
+                "Acrylic không cần tip"
+            ],
+            "answer": "Đắp từ gốc đến đầu móng"
+        },
+        {
+            "question": "Xương lớn nhất trong khoảng dưới đầu gối?",
+            "options": [
+                "Xương mác",
+                "Xương bánh chè",
+                "Xương chày",
+                "Xương cổ chân"
+            ],
+            "answer": "Xương chày"
+        },
+        {
+            "question": "Khi đang tháo móng bột bằng acetone nhưng khách không chịu làm lâu, lúc này thợ nên làm gì?",
+            "options": [
+                "Dùng dũa điện tháo nhanh",
+                "Tiếp tục ngâm acetone",
+                "Chuyển sang dũa tay",
+                "Sử dụng chất tẩy không acetone"
+            ],
+            "answer": "Tiếp tục ngâm acetone"
+        },
+        {
+            "question": "Để giảm bớt cảm giác nóng khi khách hơ đèn, thợ phải làm gì?",
+            "options": [
+                "Tăng thời gian hơ đèn",
+                "Giảm thời gian hơ đèn",
+                "Bôi thêm primer",
+                "Xịt nước lạnh"
+            ],
+            "answer": "Giảm thời gian hơ đèn"
+        },
+        {
+            "question": "Gel gì dùng để tạo rãnh móng và định hình?",
+            "options": [
+                "Gel xây dựng",
+                "Gel màu",
+                "Gel bóng",
+                "UV gel"
+            ],
+            "answer": "Gel màu"
+        }
+    ],
+    "Tập 6: Khử trùng và Nhiễm trùng": [
+        {
+            "question": "Gắn tip khác với gel bột như thế nào?",
+            "options": [
+                "UV gel",
+                "Đèn UV (gel bột cần đèn UV, tip không cần)",
+                "Acetone",
+                "Primer"
+            ],
+            "answer": "Đèn UV"
+        },
+        {
+            "question": "Tiến trình tiêu diệt vi trùng gọi là gì?",
+            "options": [
+                "Vệ sinh",
+                "Khử trùng",
+                "Tiệt trùng",
+                "Sát trùng"
+            ],
+            "answer": "Khử trùng"
+        },
+        {
+            "question": "Phần nào trên móng tay bảo vệ không cho vi khuẩn xâm nhập?",
+            "options": [
+                "Đầu móng",
+                "Thân móng",
+                "Gốc móng",
+                "Hyponychium"
+            ],
+            "answer": "Thân móng"
+        },
+        {
+            "question": "Sau khi xác định kích cỡ, gắn móng, nhân viên phát hiện móng bị nấm, nhân viên nên làm gì?",
+            "options": [
+                "Tiếp tục làm móng giả",
+                "Tháo móng ngay",
+                "Giới thiệu đi bác sĩ",
+                "Dùng thuốc tẩy"
+            ],
+            "answer": "Giới thiệu đi bác sĩ"
+        },
+        {
+            "question": "Dung dịch được cho vào bồn ngâm chân để làm gì?",
+            "options": [
+                "Khử trùng",
+                "Làm cứng da",
+                "Làm mềm",
+                "Tiệt trùng"
+            ],
+            "answer": "Làm mềm"
+        },
+        {
+            "question": "Khách nên tháo móng bột sau bao lâu?",
+            "options": [
+                "Sau 2 tuần",
+                "Sau 1 tháng",
+                "Không cần thiết nếu giữ vệ sinh sạch sẽ",
+                "Sau khi làm refill"
+            ],
+            "answer": "Không cần thiết nếu giữ vệ sinh sạch sẽ"
+        },
+        {
+            "question": "Khách đến sửa móng gel, gel nên làm đầy vị trí?",
+            "options": [
+                "Chỉ ở đầu móng",
+                "Từ gốc móng đến đầu móng",
+                "Chỉ phần móng thật",
+                "Chỉ ở 1/2 thân móng"
+            ],
+            "answer": "Từ gốc móng đến đầu móng"
+        },
+        {
+            "question": "Nhân viên sơ ý để chất monomer vào chân, nhân viên đó sẽ bị phơi nhiễm quá mức nếu?",
+            "options": [
+                "Bay hơi",
+                "Hấp thụ (qua da)",
+                "Tiêu diệt",
+                "Bị nóng"
+            ],
+            "answer": "Hấp thụ"
+        },
+        {
+            "question": "Khách hàng có móng vỏ trứng, chuyên viên nên làm gì?",
+            "options": [
+                "Dùng dũa kim loại",
+                "Dùng mặt mịn của dũa giấy",
+                "Dùng dũa thô",
+                "Từ chối dịch vụ"
+            ],
+            "answer": "Dùng mặt mịn của dũa giấy"
+        },
+        {
+            "question": "Giũa móng chân khi nào (dùng cây dũa khi nào)?",
+            "options": [
+                "Khi móng ướt",
+                "Khi móng khô",
+                "Sau khi cắt da",
+                "Trước khi ngâm"
+            ],
+            "answer": "Khi móng khô"
+        },
+        {
+            "question": "Dung dịch hoá học dùng để ngăn chặn sự phát triển của vi trùng được gọi là?",
+            "options": [
+                "Tiệt trùng",
+                "Khử trùng",
+                "Chất tẩy lau nhà",
+                "Chất tẩy uế"
+            ],
+            "answer": "Khử trùng"
+        },
+        {
+            "question": "Loại bỏ toàn bộ vi khuẩn là gì?",
+            "options": [
+                "Vệ sinh",
+                "Khử trùng",
+                "Tiệt trùng",
+                "Sát trùng"
+            ],
+            "answer": "Tiệt trùng"
+        },
+        {
+            "question": "Tình trạng mà móng bị long ra khỏi thân móng là?",
+            "options": [
+                "Rối loạn móng",
+                "Sự bong móng (Onycholysis)",
+                "Onychausis",
+                "Onychia"
+            ],
+            "answer": "Sự bong móng (Onycholysis)"
+        },
+        {
+            "question": "Trong móng acrylic quá trình trao đổi nhiệt khi hạt polymer cuối cùng nhận được nhiệt lượng được biết là?",
+            "options": [
+                "Bay hơi",
+                "Polymer hoá",
+                "Phản ứng vật lý",
+                "Sự phản ứng hóa học"
+            ],
+            "answer": "Polymer hoá"
+        },
+        {
+            "question": "Khớp có chân?",
+            "options": [
+                "Ankles",
+                "Posterior tabo",
+                "Xương bánh chè",
+                "Xương cẳng chân"
+            ],
+            "answer": "Posterior tabo"
+        },
+        {
+            "question": "Sau khi làm xong (dịch vụ)?",
+            "options": [
+                "Bôi dầu lên da",
+                "Khử trùng dụng cụ",
+                "Đặt lịch mới",
+                "Rửa tay"
+            ],
+            "answer": "Khử trùng dụng cụ"
+        },
+        {
+            "question": "Cát biển, hạt thuỷ tinh, mùi hương có trong sản phẩm nào sau đây?",
+            "options": [
+                "Primer",
+                "Monomer",
+                "Chất chà xát (Scrub/Exfoliant)",
+                "Nước sơn móng"
+            ],
+            "answer": "Chất chà xát"
+        },
+        {
+            "question": "Massage kèm theo động tác nào?",
+            "options": [
+                "Nhồi bóp",
+                "Xoa bóp",
+                "Đấm bóp",
+                "Vỗ"
+            ],
+            "answer": "Xoa bóp"
+        },
+        {
+            "question": "Cơ quan nào của cơ thể bảo vệ khỏi vi trùng xâm nhập cơ thể?",
+            "options": [
+                "Ruột non",
+                "Gan",
+                "Da",
+                "Tế bào máu"
+            ],
+            "answer": "Da"
+        },
+        {
+            "question": "Khi thợ làm nail bị nước liquid đổ vào chân thì sẽ?",
+            "options": [
+                "Bay hơi",
+                "Hấp thụ",
+                "Phản ứng hóa học",
+                "Đông lại"
+            ],
+            "answer": "Hấp thụ"
+        }
+    ],
+    "Tập 7: Dụng cụ và Kỹ thuật Dũa": [
+        {
+            "question": "Khi dùng dũa điện, cái nào an toàn cho thợ?",
+            "options": [
+                "Dũa mịn",
+                "Tốc độ thấp",
+                "Đồ phòng hộ y tế (khẩu trang, kính, găng tay)",
+                "Dùng nước"
+            ],
+            "answer": "Đồ phòng hộ y tế"
+        },
+        {
+            "question": "Chất xúc tác làm nhanh?",
+            "options": [
+                "Polymer",
+                "Monomer",
+                "Catalyst",
+                "Primer"
+            ],
+            "answer": "Catalyst"
+        },
+        {
+            "question": "Khớp cổ chân?",
+            "options": [
+                "Xương bánh chè và xương đùi",
+                "Xương chày và xương mác",
+                "Xương cẳng chân và xương bàn chân",
+                "Xương bàn chân"
+            ],
+            "answer": "Xương chày và xương mác"
+        },
+        {
+            "question": "Sodium hypochloride?",
+            "options": [
+                "Acetone",
+                "Chất lau chùi nhà (nước tẩy)",
+                "Primer",
+                "Cồn"
+            ],
+            "answer": "Chất lau chùi nhà"
+        },
+        {
+            "question": "Hai mũi dũa nào không được dùng trên móng thật?",
+            "options": [
+                "Giấy và mịn",
+                "Kim cương và cac-bua",
+                "Niken và đá",
+                "Thép không gỉ"
+            ],
+            "answer": "Kim cương và cac-bua"
+        },
+        {
+            "question": "Sau bước làm khô cuối cùng của dịch vụ gel, làm gì để lấy đi chất dính còn lại?",
+            "options": [
+                "Acetone",
+                "Dầu thoa da",
+                "Nước",
+                "Cồn"
+            ],
+            "answer": "Dầu thoa da"
+        },
+        {
+            "question": "Móng vỏ trứng?",
+            "options": [
+                "Dùng dũa kim loại",
+                "Dùng dũa thô",
+                "Dùng dũa mịn",
+                "Gắn tip toàn thân móng"
+            ],
+            "answer": "Dùng dũa mịn"
+        },
+        {
+            "question": "Đối với móng 1/2 hồng, 1/2 trắng khi để bột lên thì?",
+            "options": [
+                "Trắng nhiều hơn hồng",
+                "Hồng nhiều hơn trắng",
+                "Tỉ lệ 1:1",
+                "Bột hồng che hết bột trắng"
+            ],
+            "answer": "Hồng nhiều hơn trắng"
+        },
+        {
+            "question": "Sự khác biệt giữa gel và nail xây dựng (sculptured)?",
+            "options": [
+                "Cần tip",
+                "Không cần dùng tip (dùng form giấy)",
+                "Cần đèn UV",
+                "Không cần monomer"
+            ],
+            "answer": "Không cần dùng tip"
+        },
+        {
+            "question": "Bước cuối cùng khi làm khô gel, làm tẩy bỏ bột chất dính?",
+            "options": [
+                "Lau bằng cồn",
+                "Bôi dầu lên da quanh móng",
+                "Rửa bằng xà phòng",
+                "Dũa bóng"
+            ],
+            "answer": "Bôi dầu lên da quanh móng"
+        },
+        {
+            "question": "Xương mở nắp đầu gối còn được gọi là?",
+            "options": [
+                "Xương chày",
+                "Xương cẳng chân",
+                "Xương bánh chè",
+                "Xương mác"
+            ],
+            "answer": "Xương bánh chè"
+        },
+        {
+            "question": "Khách hàng đắp móng pink and white, phần trắng bị mờ?",
+            "options": [
+                "Do dùng sai polymer",
+                "Do sử dụng sai monomer",
+                "Do dùng primer",
+                "Do không hơ đèn"
+            ],
+            "answer": "Do sử dụng sai monomer"
+        },
+        {
+            "question": "Khi khách hàng tới làm chân, phải làm gì trước tiên?",
+            "options": [
+                "Sát trùng tay thợ",
+                "Ngâm chân khách",
+                "Đeo bao tay cho thợ",
+                "Dũa móng"
+            ],
+            "answer": "Sát trùng tay thợ"
+        },
+        {
+            "question": "Công đoạn massage?",
+            "options": [
+                "Đấm bóp",
+                "Nhồi bóp",
+                "Vuốt nhẹ",
+                "Xoa bóp mạnh"
+            ],
+            "answer": "Vuốt nhẹ"
+        },
+        {
+            "question": "Khách hàng làm bột đắp bột lên da?",
+            "options": [
+                "Mềm",
+                "Bị tróc",
+                "Cứng",
+                "Thẩm thấu"
+            ],
+            "answer": "Bị tróc"
+        },
+        {
+            "question": "Sau khi làm xong?",
+            "options": [
+                "Lau bàn",
+                "Đặt lịch mới",
+                "Khử trùng dụng cụ",
+                "Tháo bao tay"
+            ],
+            "answer": "Khử trùng dụng cụ"
+        },
+        {
+            "question": "Cơ gì song với cẳng tay, làm cho cánh tay thẳng?",
+            "options": [
+                "Cơ khép",
+                "Cơ xoè",
+                "Cơ duỗi",
+                "Cơ co"
+            ],
+            "answer": "Cơ duỗi"
+        },
+        {
+            "question": "Dũa khoé?",
+            "options": [
+                "90 độ",
+                "180 độ",
+                "60 độ",
+                "45 độ"
+            ],
+            "answer": "60 độ"
+        },
+        {
+            "question": "Độ cồn để sát trùng?",
+            "options": [
+                "100 độ",
+                "90 độ",
+                "70 độ",
+                "50 độ"
+            ],
+            "answer": "70 độ"
+        },
+        {
+            "question": "70% vi khuẩn?",
+            "options": [
+                "Có hại",
+                "Gây bệnh",
+                "Không có hại (không gây bệnh)",
+                "Gây nhiễm trùng"
+            ],
+            "answer": "Không có hại"
+        }
+    ],
+    "Tập 8: Xử lý Vấn đề và Sinh học": [
+        {
+            "question": "Khách hàng làm móng bột, nhân viên thấy móng bị bể vài móng?",
+            "options": [
+                "Gắn lại móng mới",
+                "Dũa phần còn lại (phần bột bị bể/nứt)",
+                "Tháo hết móng",
+                "Dùng gel đắp lên"
+            ],
+            "answer": "Dũa phần còn lại"
+        },
+        {
+            "question": "Bạn có thể phục vụ cho khách với móng mốc và nấm là?",
+            "options": [
+                "Làm bình thường",
+                "Gỡ móng giả",
+                "Từ chối dịch vụ",
+                "Dùng sơn gel"
+            ],
+            "answer": "Gỡ móng giả"
+        },
+        {
+            "question": "Cơ quan nào giúp cơ thể chống lại độc tố?",
+            "options": [
+                "Da",
+                "Ruột non, gan",
+                "Phổi",
+                "Tế bào máu"
+            ],
+            "answer": "Ruột non, gan"
+        },
+        {
+            "question": "Khi khách hàng làm móng bột, khách cảm thấy nóng khi dũa điện với sức ép?",
+            "options": [
+                "Giảm tốc độ dũa",
+                "Xịt nước lạnh",
+                "Tăng tốc độ dũa",
+                "Tháo móng ngay"
+            ],
+            "answer": "Xịt nước lạnh"
+        },
+        {
+            "question": "Việc gì để hạn chế sự lây lan bệnh?",
+            "options": [
+                "Khử trùng",
+                "Tiệt trùng",
+                "Vệ sinh (rửa tay)",
+                "Dùng bao tay"
+            ],
+            "answer": "Vệ sinh"
+        },
+        {
+            "question": "Bệnh gây ra từ nấm còn gọi là gì?",
+            "options": [
+                "Mụn cơm",
+                "Lác đồng tiền",
+                "Onycholysis",
+                "Onychia"
+            ],
+            "answer": "Lác đồng tiền"
+        },
+        {
+            "question": "Việc gì cần làm trước tiên để bắt đầu dịch vụ móng chân cho khách?",
+            "options": [
+                "Ngâm chân khách",
+                "Đeo bao tay cho mình và yêu cầu khách rửa tay",
+                "Dũa móng",
+                "Sát trùng tay thợ"
+            ],
+            "answer": "Đeo bao tay cho mìnhvà yêu cầu khách rửa tay"
+        },
+        {
+            "question": "Làm sạch và vệ sinh móng cho khách trước khi làm móng giả vì?",
+            "options": [
+                "Giúp bột dính chặt",
+                "Ngăn ngừa nấm",
+                "Làm mềm móng",
+                "Tạo độ bóng"
+            ],
+            "answer": "Ngăn ngừa nấm"
+        },
+        {
+            "question": "Móng bị long và rụng gọi là?",
+            "options": [
+                "Onychausis",
+                "Onycholysis",
+                "Onychia",
+                "Móng mọc lộn vào"
+            ],
+            "answer": "Onycholysis"
+        },
+        {
+            "question": "Chất chùi nước sơn trên móng tip và móng bột là?",
+            "options": [
+                "Acetone",
+                "Non- acetone",
+                "Cồn",
+                "Nước"
+            ],
+            "answer": "Non- acetone"
+        },
+        {
+            "question": "Bàn làm móng sau khi hoàn thành cho khách?",
+            "options": [
+                "Dùng khăn mới",
+                "Khử trùng và thay khăn mới",
+                "Quét dọn",
+                "Rửa tay"
+            ],
+            "answer": "Khử trùng và thay khăn mới"
+        },
+        {
+            "question": "Vi khuẩn xâm nhập vào cơ thể bám vào vi sinh vật để sống và nuôi dưỡng?",
+            "options": [
+                "Môi trường xung quanh",
+                "Tế bào máu, tế bào sống",
+                "Dụng cụ",
+                "Hóa chất"
+            ],
+            "answer": "Tế bào máu, tế bào sống"
+        },
+        {
+            "question": "Phần có sự sống của móng nhìn thấy rõ nhất là?",
+            "options": [
+                "Thân móng",
+                "Gốc móng",
+                "Đầu móng",
+                "Hyponychium"
+            ],
+            "answer": "Gốc móng"
+        },
+        {
+            "question": "Trước khi làm móng bột acrylic, móng thật cần làm mất độ bóng mục đích?",
+            "options": [
+                "Làm móng mềm",
+                "Giúp cho bột dính chặt",
+                "Ngăn ngừa nấm",
+                "Tạo độ ẩm"
+            ],
+            "answer": "Giúp cho bột dính chặt"
+        },
+        {
+            "question": "Vi khuẩn di chuyển với sự trợ giúp của?",
+            "options": [
+                "Chân thật",
+                "Chân giả (lông bơi, fragella)",
+                "Đuôi",
+                "Cơ"
+            ],
+            "answer": "Chân giả (lông bơi, fragella)"
+        },
+        {
+            "question": "Thêm bột vào cho móng mới mọc được gọi là?",
+            "options": [
+                "Đắp lại",
+                "Fill (Refill)",
+                "Sculptured",
+                "Overlay"
+            ],
+            "answer": "Fill"
+        },
+        {
+            "question": "Unar là xương cánh tay trước dọc theo?",
+            "options": [
+                "Ngón cái",
+                "Ngón trỏ",
+                "Ngón út",
+                "Cổ tay"
+            ],
+            "answer": "Ngón út"
+        },
+        {
+            "question": "Móng vành khuyên phù hợp với người?",
+            "options": [
+                "Có móng dài",
+                "Có móng ngắn tròn đầu móng",
+                "Có móng nhọn",
+                "Có móng vuông"
+            ],
+            "answer": "Có móng ngắn tròn đầu móng"
+        },
+        {
+            "question": "Khả năng chống lại bệnh được gọi là?",
+            "options": [
+                "Sự nhiễm trùng",
+                "Sự miễn nhiễm",
+                "Sự phòng ngừa",
+                "Sự phục hồi"
+            ],
+            "answer": "Sự miễn nhiễm"
+        },
+        {
+            "question": "Khi làm tay cho khách, lỡ làm cắt tay khách?",
+            "options": [
+                "Tiếp tục làm",
+                "Ngưng làm",
+                "Thẩm định",
+                "Khử trùng tay"
+            ],
+            "answer": "Ngưng làm"
+        }
+    ],
+    "Tập 9: Duy trì và Sức khỏe": [
+        {
+            "question": "Khách mang móng tip, khách phải quay lại sau bao lâu để tháo móng tip?",
+            "options": [
+                "Sau 1 tuần",
+                "Sau 2 tuần",
+                "Không cần thiết nếu móng tip còn tốt",
+                "Sau 1 tháng"
+            ],
+            "answer": "Không cần thiết nếu móng tip còn tốt"
+        },
+        {
+            "question": "Chất gì tẩy vết móng?",
+            "options": [
+                "Non-acetone",
+                "Acetone",
+                "Cồn",
+                "Nước"
+            ],
+            "answer": "Acetone"
+        },
+        {
+            "question": "Dùng gì để lấy kem ra khỏi lọ chứa?",
+            "options": [
+                "Tay",
+                "Cây que gỗ sạch",
+                "Muỗng",
+                "Cọ"
+            ],
+            "answer": "Cây que gỗ sạch"
+        },
+        {
+            "question": "Tẩy uế, khử trùng, đưa vào lọ có đèn UV gọi là?",
+            "options": [
+                "Vệ sinh",
+                "Khử trùng mức độ bệnh viện",
+                "Tiệt trùng",
+                "Khử trùng"
+            ],
+            "answer": "Tẩy uế mức độ bệnh viện"
+        },
+        {
+            "question": "Da dưới đầu móng?",
+            "options": [
+                "Eponychium",
+                "Hyponychium",
+                "Gốc móng",
+                "Thân móng"
+            ],
+            "answer": "Hyponychium"
+        },
+        {
+            "question": "Gắn móng tip nên gắn?",
+            "options": [
+                "Toàn thân móng",
+                "Tại bo móng tip và điểm dừng đầu móng",
+                "Chỉ ở đầu móng",
+                "Trên da"
+            ],
+            "answer": "Tại bo móng tip và điểm dừng đầu móng"
+        },
+        {
+            "question": "Người có tật cắn móng, móng tip cần gắn?",
+            "options": [
+                "Tại đầu móng",
+                "Tại bo móng",
+                "Toàn thân móng",
+                "1/2 thân móng"
+            ],
+            "answer": "Toàn thân móng"
+        },
+        {
+            "question": "Khách vào làm móng, nhưng không muốn mang móng giả, tư vấn gì?",
+            "options": [
+                "Móng bột",
+                "Tip",
+                "Gel UV",
+                "Đắp lụa"
+            ],
+            "answer": "Gel UV"
+        },
+        {
+            "question": "Cây sủi kim loại nên dùng?",
+            "options": [
+                "Đứng thẳng, ép mạnh",
+                "Nằm ngang, ép nhẹ trên thân móng ẩm",
+                "Nằm ngang, ép mạnh trên thân móng khô",
+                "Để ở góc móng"
+            ],
+            "answer": "Nằm ngang, ép nhẹ trên thân móng ẩm"
+        },
+        {
+            "question": "Sự thành công của thợ móng tay không phụ thuộc vào?",
+            "options": [
+                "Khả năng phục vụ khách",
+                "Khả năng chữa bệnh móng",
+                "Kỹ thuật làm móng",
+                "Sự cẩn thận"
+            ],
+            "answer": "Khả năng chữa bệnh móng"
+        },
+        {
+            "question": "Bồn ngâm chân được bỏ vào dung dịch, mục đích gì?",
+            "options": [
+                "Khử trùng",
+                "Làm cứng da",
+                "Mềm da chân",
+                "Sát trùng"
+            ],
+            "answer": "Mềm da chân"
+        },
+        {
+            "question": "Móng nhân tạo giúp?",
+            "options": [
+                "Chữa bệnh nấm",
+                "Che đậy chỗ móng gẫy",
+                "Kéo dài móng",
+                "Làm móng cứng hơn"
+            ],
+            "answer": "Che đậy chỗ móng gẫy"
+        },
+        {
+            "question": "Dịch vụ nào sau đây không nên xả móng?",
+            "options": [
+                "Làm hẹp tép trên móng dày",
+                "Gắn tip",
+                "Sơn gel",
+                "Làm móng bột"
+            ],
+            "answer": "Làm hẹp tép tren móng dày"
+        },
+        {
+            "question": "Dũa kim loại thay cho dũa giấy để?",
+            "options": [
+                "Tạo dáng móng",
+                "Dũa mòn ở đầu móng",
+                "Đánh bóng móng",
+                "Chùi sơn"
+            ],
+            "answer": "Dũa mòn ở đầu móng"
+        },
+        {
+            "question": "Lớp da nằm sâu trong góc móng gọi là?",
+            "options": [
+                "Eponychium",
+                "Hyponychium",
+                "Màng bọc móng (Móng non)",
+                "Gốc móng"
+            ],
+            "answer": "Màng bọc móng"
+        },
+        {
+            "question": "Dây thần kinh có trong?",
+            "options": [
+                "Móng già",
+                "Móng non",
+                "Thân móng",
+                "Đầu móng"
+            ],
+            "answer": "Móng non"
+        },
+        {
+            "question": "Cánh tay trên cổ xương dài và lớn nhất là?",
+            "options": [
+                "Radius",
+                "Unar",
+                "Humerus (Xương cánh tay)",
+                "Xương cổ tay"
+            ],
+            "answer": "Humerus"
+        },
+        {
+            "question": "Nơi nào bạn có thể tìm hiểu quy tắc an toàn sử dụng của sản phẩm?",
+            "options": [
+                "Trong tiệm làm việc",
+                "SDS (MSDS)",
+                "FDA",
+                "Hội đồng y tế"
+            ],
+            "answer": "MSDS"
+        },
+        {
+            "question": "Khi đắp móng bột, móng giả nên được gắn như thế nào?",
+            "options": [
+                "Hở đầu móng",
+                "Khít khao với đầu móng",
+                "Khít với da",
+                "1/2 thân móng"
+            ],
+            "answer": "Khít khao với đầu móng"
+        },
+        {
+            "question": "Trong khi làm móng tay, không nên?",
+            "options": [
+                "Dũa móng",
+                "Sơn móng",
+                "Dũa sâu vào cạnh đầu móng",
+                "Ngâm tay"
+            ],
+            "answer": "Dũa sâu vào cạnh đầu móng"
+        }
+    ],
+    "Tập 10: Quy trình và Hóa chất": [
+        {
+            "question": "Trong khi đắp bột, bột trên cọ nên?",
+            "options": [
+                "Ướt",
+                "Khô",
+                "Tạo thành viên tròn trên thành cọ",
+                "Bám vào cọ"
+            ],
+            "answer": "Tạo thành viên tròn trên thành cọ"
+        },
+        {
+            "question": "Hủ thuỷ tinh đựng hoá chất trong salon, sau kho dùng hết nên?",
+            "options": [
+                "Vệ sinh để dùng lại",
+                "Vứt bỏ",
+                "Đem đi tái chế",
+                "Để lại trên bàn"
+            ],
+            "answer": "Vứt bỏ"
+        },
+        {
+            "question": "Bệnh xước da móng tay được chữa trị bằng cách làm mềm da với?",
+            "options": [
+                "Nước",
+                "Acetone",
+                "Dầu thoa da",
+                "Cồn"
+            ],
+            "answer": "Dầu thoa da"
+        },
+        {
+            "question": "Cái gì được chữa trị bằng đèn Led?",
+            "options": [
+                "Primer",
+                "UV gel",
+                "Monomer",
+                "Nước sơn"
+            ],
+            "answer": "UV gel"
+        },
+        {
+            "question": "Khi dũa bằng dũa điện, nghiêng 45 độ ở đầu móng để?",
+            "options": [
+                "Tạo dáng",
+                "Tránh ảnh hưởng đến da dưới đầu móng (Hyponychium)",
+                "Giảm nóng",
+                "Dũa nhanh hơn"
+            ],
+            "answer": "Tránh ảnh hưởng đến da dưới đầu móng"
+        },
+        {
+            "question": "Chất sodium hypochloride thường được biết là?",
+            "options": [
+                "Acetone",
+                "Primer",
+                "Chất tẩy lau nhà (Bleach)",
+                "Cồn"
+            ],
+            "answer": "Chất tẩy lau nhà"
+        },
+        {
+            "question": "Tất cả dụng cụ làm móng phải được diệt trùng trước khi?",
+            "options": [
+                "Cất giữ",
+                "Sử dụng cho khách khác",
+                "Lau khô",
+                "Rửa xả với nước"
+            ],
+            "answer": "Sử dụng cho khách khác"
+        },
+        {
+            "question": "Khi làm móng bột, điều gì là an toàn trước tiên cho dịch vụ?",
+            "options": [
+                "Khử trùng bàn",
+                "Đeo bao tay cho thợ",
+                "Rửa tay khách",
+                "Dũa móng"
+            ],
+            "answer": "Đeo bao tay cho thợ"
+        },
+        {
+            "question": "Thứ tự để làm móng?",
+            "options": [
+                "Sơn - chà mặt móng - đẩy da chết - ngâm vào tô - tạo dáng móng",
+                "Chùi sơn cũ - tạo dáng móng(dũa) - ngâm vào tô(soak) - đẩy da chết - chà mặt móng(buffer) - sơn",
+                "Tạo dáng móng - sơn - ngâm - chùi sơn",
+                "Ngâm - đẩy da chết - dũa - sơn"
+            ],
+            "answer": "Chùi sơn cũ-tạo dáng móng(dũa)- ngâm vào tô(soak) - đẩy da chết - chà mặt móng(buffer)- sơn"
+        },
+        {
+            "question": "Móng bị nứt, có thể là nguyên nhân?",
+            "options": [
+                "Sơn quá dày",
+                "Dũa không đúng cách",
+                "Ngâm nước quá lâu",
+                "Sử dụng dầu thoa da"
+            ],
+            "answer": "Dũa không đúng cách"
+        },
+        {
+            "question": "Khi làm móng gel, khách than phiền là nóng khi hơ đèn?",
+            "options": [
+                "Do hơ quá lâu",
+                "Do bôi primer",
+                "Do dùng sai cách đặt dũa",
+                "Do dũa quá mạnh"
+            ],
+            "answer": "Do hơ quá lâu"
+        },
+        {
+            "question": "Để giúp sơn lâu tróc, đầu móng tay cần?",
+            "options": [
+                "Không sơn",
+                "Gạt đầu móng sau mỗi lớp sơn",
+                "Dùng dũa thô",
+                "Bôi dầu"
+            ],
+            "answer": "Gạt đầu móng sau mỗi lớp sơn"
+        },
+        {
+            "question": "Khách làm xong dịch vụ, muốn tư vấn loại sơn để về nhà dùng?",
+            "options": [
+                "Khuyên làm dịch vụ tại tiệm",
+                "Tư vấn loại phù hợp với tay khách",
+                "Từ chối tư vấn",
+                "Tư vấn sơn đắt nhất"
+            ],
+            "answer": "Tư vấn loại phù hợp với tay khách"
+        },
+        {
+            "question": "Hoàn tất dịch vụ sơn gel cần làm gì?",
+            "options": [
+                "Lau sạch móng bằng acetone",
+                "Bôi dầu dưỡng da lên tay khách",
+                "Lau bàn",
+                "Đánh bóng móng"
+            ],
+            "answer": "Bôi dầu dưỡng da lên tay khách"
+        },
+        {
+            "question": "Đầu móng bột được tạo dáng bằng?",
+            "options": [
+                "Dũa giấy mịn",
+                "Dũa kim loại",
+                "Dũa điện",
+                "Cát-bua"
+            ],
+            "answer": "Dũa kim loại"
+        },
+        {
+            "question": "Tia quang phổ, cái gì có thể chữa trị bằng ánh sáng?",
+            "options": [
+                "Liệu pháp hóa chất",
+                "Liệu pháp vật lý",
+                "Liệu pháp ánh sáng",
+                "Chất xúc tác"
+            ],
+            "answer": "Liệu pháp ánh sáng"
+        },
+        {
+            "question": "Đầu dũa dùng trong đắp bột acrylic là?",
+            "options": [
+                "Mũi dũa mịn",
+                "Kim cương và cac-bua",
+                "Niken",
+                "Dũa giấy"
+            ],
+            "answer": "Kim cương và cac-bua"
+        },
+        {
+            "question": "Cái gì gây ra sự nhiễm trùng màu xanh xuất hiện dưới móng nối nhân tạo:",
+            "options": [
+                "Primer",
+                "Hơi ẩm ướt bị kẹt lại",
+                "Acetone",
+                "Bột polymer"
+            ],
+            "answer": "Hơi ẩm ướt bị kẹt lại"
+        },
+        {
+            "question": "Chữa trị tất cả các chất lỏng của cơ thể bằng cách dùng phương thức kiểm soát nhiễm trùng thích hợp được gọi là:",
+            "options": [
+                "Sự vệ sinh",
+                "Sự phòng ngừa phổ thông",
+                "Sự tiệt trùng",
+                "Sự khử trùng"
+            ],
+            "answer": "Sự phòng ngừa phổ thông"
+        },
+        {
+            "question": "Dùng động tác tới và lùi trong khi dũa móng tay thật có thể làm vỡ lớp thân và:",
+            "options": [
+                "Giúp móng cứng hơn",
+                "Gây ra đường nứt và tróc",
+                "Tạo độ bóng",
+                "Gắn kết bột"
+            ],
+            "answer": "Gây ra đường nứt và tróc"
+        }
+    ],
+    "Tập 11: Hành động Chuyên viên và Vệ sinh": [
+        {
+            "question": "Chuyên viên thực hành bất ý cắt khách hàng trong lúc làm tay. Với hành động nào sau đây chuyên viên thực hành:",
+            "options": [
+                "Tiếp tục làm",
+                "Ngưng làm, đeo bao tay",
+                "Lau sạch bằng khăn",
+                "Hỏi khách có đau không"
+            ],
+            "answer": "Ngưng làm, đeo bao tay"
+        },
+        {
+            "question": "Thân móng được làm bằng:",
+            "options": [
+                "Chất béo",
+                "Chất đạm (Keratin)",
+                "Canxi",
+                "Nước"
+            ],
+            "answer": "Chất đạm"
+        },
+        {
+            "question": "Dầu móng phải được dùng bôi bằng:",
+            "options": [
+                "Ngón tay",
+                "Cọ có thể vứt bỏ",
+                "Cọ dùng chung",
+                "Tăm"
+            ],
+            "answer": "Cọcó thể vứt bỏ"
+        },
+        {
+            "question": "Khi đặt vị trí hình mẫu móng trên ngón tay của khách hàng, nó phải vừa vặn:",
+            "options": [
+                "Nằm trên đầu móng",
+                "Khít khao dưới đầu móng",
+                "Hở đầu móng",
+                "Chạm vào da"
+            ],
+            "answer": "Khít khao dưới đầu móng"
+        },
+        {
+            "question": "Phương thức nào cần thiết nhất trước khi bôi nước sơn:",
+            "options": [
+                "Bôi dầu",
+                "Lau chùi đầu trên thân móng (đầu tự do)",
+                "Cắt da chết",
+                "Ngâm tay"
+            ],
+            "answer": "Lau chùi đầu trên thân móng"
+        },
+        {
+            "question": "Trong lúc chăm sóc bàn tay, chuyên viên làm gì để làm sạch thân móng:",
+            "options": [
+                "Dùng acetone",
+                "Bàn chải móng",
+                "Cây nạo",
+                "Kềm cắt da"
+            ],
+            "answer": "Bàn chải móng"
+        },
+        {
+            "question": "Bước đầu tiên trong phương thức phô bày / chạm với máu là gì:",
+            "options": [
+                "Đeo bao tay",
+                "Tẩy uế chỗ làm (Tẩy uế bàn)",
+                "Rửa tay",
+                "Băng vết thương"
+            ],
+            "answer": "Tẩy uế chỗ làm"
+        },
+        {
+            "question": "Với một cái nào sau đây là 1 thí dụ của triệu chứng khách quan (Có thể quan sát được):",
+            "options": [
+                "Đau",
+                "Buồn nôn",
+                "Ngứa ngáy",
+                "Đỏ/sưng"
+            ],
+            "answer": "Ngứa ngáy"
+        },
+        {
+            "question": "Ngâm màu nhựa dẻo (Sơn gel/Dip) trong dung dịch nào để được tẩy bỏ:",
+            "options": [
+                "Non-acetone",
+                "Acetone",
+                "Cồn",
+                "Nước"
+            ],
+            "answer": "Acetone"
+        },
+        {
+            "question": "Thân móng phải được đầu móng che lại bao nhiêu:",
+            "options": [
+                "Toàn bộ",
+                "Không quá 1/2 toàn thân móng",
+                "Không quá 1/3 toàn thân móng",
+                "Hơn 1/2 toàn thân móng"
+            ],
+            "answer": "Không quá 1/2 toàn thân móng"
+        },
+        {
+            "question": "Móng phải được dũa:",
+            "options": [
+                "Sau khi sơn",
+                "Trước khi ngâm",
+                "Sau khi ngâm",
+                "Sau khi cắt da"
+            ],
+            "answer": "Trước khi ngâm"
+        },
+        {
+            "question": "Phải làm gì lập tức sau khi lấy dụng cụ ra khỏi nơi tẩy uế:",
+            "options": [
+                "Sử dụng ngay",
+                "Rửa xả với nước",
+                "Lau khô",
+                "Đặt vào tủ UV"
+            ],
+            "answer": "Rửa xả với nước"
+        },
+        {
+            "question": "Trước khi làm dịch vụ cả hai chuyên viên thực hành (người thợ) và khách hàng phải:",
+            "options": [
+                "Đeo bao tay",
+                "Làm vệ sinh tay",
+                "Khử trùng bàn",
+                "Dũa móng"
+            ],
+            "answer": "Làm vệ sinh tay"
+        },
+        {
+            "question": "Hệ thống bộ xương gồm có bao nhiêu xương:",
+            "options": [
+                "200",
+                "206",
+                "260",
+                "300"
+            ],
+            "answer": "206"
+        },
+        {
+            "question": "Khi chuẩn bị làm móng tay căn bản, khi nào cái khăn được đặt trên bàn:",
+            "options": [
+                "Trước khi tẩy uế bàn",
+                "Sau khi tẩy uế cái bàn",
+                "Sau khi khách ngồi",
+                "Sau khi dũa móng"
+            ],
+            "answer": "Sau khi tẩy uế cái bàn"
+        },
+        {
+            "question": "Dũa quá sâu vào các góc của móng tay có thể gây ra:",
+            "options": [
+                "Móng cứng hơn",
+                "Móng mọc lộn vào",
+                "Sự bong móng",
+                "Móng chẻ"
+            ],
+            "answer": "Móng mọc lộn vào"
+        },
+        {
+            "question": "Thuốc tẩy biểu bì (Cuticle remover) được dùng để:",
+            "options": [
+                "Làm cứng da",
+                "Làm mềm và làm sút da",
+                "Sát trùng",
+                "Chữa bệnh nấm"
+            ],
+            "answer": "Làm mềm và làm sút da"
+        },
+        {
+            "question": "Khi thực hành với dũa điện, chuyên viên thực hành nên:",
+            "options": [
+                "Giữ dũa cố định",
+                "Giữ cho dũa di động",
+                "Dũa mạnh",
+                "Dũa 90 độ"
+            ],
+            "answer": "Giữ cho dũa di động"
+        },
+        {
+            "question": "Vứt bỏ các hoá chất kỹ càng phù hợp với:",
+            "options": [
+                "EPA",
+                "FDA",
+                "Những điều lệ của OHSA",
+                "Tiêu chuẩn của tiệm"
+            ],
+            "answer": "Những điều lệ của OHSA"
+        },
+        {
+            "question": "Với những dụng cụ nào sau đây được dùng để làm sạch dưới đầu móng trong lúc làm tay:",
+            "options": [
+                "Kềm cắt da",
+                "Cây nạo (Cây sủi)",
+                "Dũa kim loại",
+                "Bàn chải móng"
+            ],
+            "answer": "Cây nạo"
+        }
+    ],
+    "Tập 12: Chăm sóc Da và Vi khuẩn": [
+        {
+            "question": "Cho da chai nên được giảm bớt bao nhiêu trong lúc chăm sóc da:",
+            "options": [
+                "Giảm hết hoàn toàn",
+                "Giảm 1/2",
+                "Cho đến khi da được bóng sáng mịn",
+                "Không giảm"
+            ],
+            "answer": "Cho đến khi da được bóng sáng mịn"
+        },
+        {
+            "question": "Thẩm định móng của khách hàng nên được thi hành trong lúc:",
+            "options": [
+                "Sau khi sơn",
+                "Tham khảo khách hàng",
+                "Trong khi ngâm",
+                "Lau chùi"
+            ],
+            "answer": "Tham khảo khách hàng"
+        },
+        {
+            "question": "Với điều nào sau đây làm phản ứng hoá học nhanh chóng hơn:",
+            "options": [
+                "Monomer",
+                "Chất xúc tác (catalyst)",
+                "Polymer",
+                "Primer"
+            ],
+            "answer": "Chất xúc tác (catalyst)"
+        },
+        {
+            "question": "Nhiệt độ của tắm chân phải không quá:",
+            "options": [
+                "100 độ F",
+                "104 độ F",
+                "110 độ F",
+                "98 độ F"
+            ],
+            "answer": "104 độ F"
+        },
+        {
+            "question": "Hai mũi dũa điện nào không nên xài trên móng thật:",
+            "options": [
+                "Niken và đá",
+                "Kim cương và cát bua (carbide)",
+                "Dũa giấy",
+                "Đá mịn"
+            ],
+            "answer": "Kim cương và cát bua(carbide)"
+        },
+        {
+            "question": "Cái gì sẽ được hiểu qua của việc đánh bóng với chất đánh mịn vừa trước khi gần đầu móng:",
+            "options": [
+                "Dũa mòn",
+                "Lau sạch móng",
+                "Tạo độ bóng",
+                "Gắn kết"
+            ],
+            "answer": "Lau sạch móng"
+        },
+        {
+            "question": "Tiến trình nơi mà vi khuẩn chia ra hay tái sinh được gọi là:",
+            "options": [
+                "Sự miễn nhiễm",
+                "Sinh sản gián phân (mitosis)",
+                "Hấp thụ",
+                "Phơi nhiễm chéo"
+            ],
+            "answer": "Sinh sản gián phân(mitosis)"
+        },
+        {
+            "question": "Cây dũa chân hay miếng gỗ vỗ chân được dùng để:",
+            "options": [
+                "Dũa móng",
+                "Lấy đi da chai ở gót chân",
+                "Làm mềm da",
+                "Massage"
+            ],
+            "answer": "Lấy đi da chai ở gót chân"
+        },
+        {
+            "question": "Chất liệu nào sau đây không được bỏ vào ngâm chân:",
+            "options": [
+                "Muối",
+                "Dung dịch khử trùng",
+                "Dầu",
+                "Kem"
+            ],
+            "answer": "Dung dịch khử trùng"
+        },
+        {
+            "question": "Chuyên viên móng (thợ móng) nên làm gì với dũa giấy (buffer, dũa cam) sau khi đã sử dụng:",
+            "options": [
+                "Khử trùng",
+                "Quăng bỏ sau khi sử dụng",
+                "Rửa sạch",
+                "Cất đi"
+            ],
+            "answer": "Quăng bỏ sau khi sử dụng"
+        },
+        {
+            "question": "Những tờ MSDS được để ở đâu:",
+            "options": [
+                "Ở nhà",
+                "Trong tiệm làm việc",
+                "Ở xe",
+                "Trên bàn làm việc"
+            ],
+            "answer": "Trong tiệm làm việc"
+        },
+        {
+            "question": "Với điều kiện nào sau đây chuyên viên thẩm mỹ có thể săn sóc được:",
+            "options": [
+                "Móng bị nấm",
+                "Móng bị chẻ / (móng trắng hoặc móng cắm)",
+                "Móng bị nhiễm trùng",
+                "Mụn cơm"
+            ],
+            "answer": "Móng bị chẻ / (móng trắng hoặc móng cắm)"
+        },
+        {
+            "question": "Cái xương lớn bên phía ngón tay nhỏ của cánh tay được gọi là:",
+            "options": [
+                "Radius",
+                "Xương cánh tay (Unar)",
+                "Humerus",
+                "Xương bàn tay"
+            ],
+            "answer": "Xương cánh tay"
+        },
+        {
+            "question": "Động tác nhồi bóp là gì:",
+            "options": [
+                "Vuốt nhẹ",
+                "Động tác nhồi bóp (pétrissage)",
+                "Xoa bóp",
+                "Đấm bóp"
+            ],
+            "answer": "Động tác nhồi bóp"
+        },
+        {
+            "question": "Các đường ở hai bên móng tay là:",
+            "options": [
+                "Đường nứt",
+                "Đường rãnh của móng",
+                "Đường da",
+                "Đường máu"
+            ],
+            "answer": "Đường rãnh của móng"
+        },
+        {
+            "question": "Hành động vệ sinh nào quan trọng nhất để ngăn ngừa vi trùng lan rộng ra:",
+            "options": [
+                "Đeo bao tay",
+                "Rửa tay",
+                "Khử trùng bàn",
+                "Tẩy uế dụng cụ"
+            ],
+            "answer": "Rửa tay"
+        },
+        {
+            "question": "Khi lựa chọn đúng kích thước của đầu móng nó phải vừa với:",
+            "options": [
+                "Toàn thân móng",
+                "Vách móng này qua vách móng kia",
+                "1/2 thân móng",
+                "Đầu móng thật"
+            ],
+            "answer": "Vách móng này qua váchmóng kia"
+        },
+        {
+            "question": "Nơi nào những dụng cụ tẩy uế được cất giữ:",
+            "options": [
+                "Dưới bồn rửa",
+                "Trong đồ chứa dụng cụ sạch sẽ",
+                "Trên bàn làm việc",
+                "Trong ngăn kéo"
+            ],
+            "answer": "Trong đồ chứa dụng cụ sạch sẽ"
+        },
+        {
+            "question": "Vuốt nhẹ là cử động xoa, bóp, vuốt nhẹ chủ định:",
+            "options": [
+                "Hấp thụ",
+                "Tuần hoàn",
+                "Thư giãn",
+                "Giảm đau"
+            ],
+            "answer": "Tuần hoàn"
+        },
+        {
+            "question": "Cái nào sau đây được coi là chất dung môi (Solvent):",
+            "options": [
+                "Primer",
+                "Monomer",
+                "Acetone",
+                "Polymer"
+            ],
+            "answer": "Acetone"
+        }
+    ],
+    "Tập 13: Hợp chất, Bệnh lý và An toàn": [
+        {
+            "question": "Nước sơn nhựa dẻo UV khác với nước sơn móng truyền thống bởi vì nó hấp thụ bởi:",
+            "options": [
+                "Polymer",
+                "Cyanacrylate",
+                "Nicetellulose",
+                "Nước"
+            ],
+            "answer": "Cyanacrylate"
+        },
+        {
+            "question": "Cái gì gây ra sự nhiễm trùng màu xanh xuất hiện dưới móng nối nhân tạo:",
+            "options": [
+                "Primer",
+                "Monomer",
+                "Hơi ẩm ướt bị kẹt lại",
+                "Sơn gel"
+            ],
+            "answer": "Hơi ẩm ướt bị kẹt lại"
+        },
+        {
+            "question": "Chữa trị tất cả các chất lỏng của cơ thể bằng cách dùng phương thức kiểm soát nhiễm trùng thích hợp được gọi là:",
+            "options": [
+                "Sự vệ sinh",
+                "Sự phòng ngừa phổ thông",
+                "Sự tiệt trùng",
+                "Sự khử trùng"
+            ],
+            "answer": "Sự phòng ngừa phổ thông"
+        },
+        {
+            "question": "Dùng động tác tới và lùi trong khi dũa móng tay thật có thể làm vỡ lớp thân và:",
+            "options": [
+                "Giúp móng khỏe hơn",
+                "Gây ra đường nứt và tróc",
+                "Làm mềm móng",
+                "Giúp sơn dính chặt"
+            ],
+            "answer": "Gây ra đường nứt và tróc"
+        },
+        {
+            "question": "Chuyên viên thực hành bất ý cắt khách hàng trong lúc làm tay. Với hành động nào sau đây chuyên viên thực hành:",
+            "options": [
+                "Tiếp tục làm",
+                "Ngưng làm, đeo bao tay",
+                "Hỏi khách có đau không",
+                "Lau sạch bằng cồn"
+            ],
+            "answer": "Ngưng làm, đeo bao tay"
+        },
+        {
+            "question": "Khách hàng có móng vỏ trứng, chuyên viên móng nên làm gì:",
+            "options": [
+                "Dùng dũa thô",
+                "Dùng mặt mịn của dũa giấy",
+                "Dũa kim loại",
+                "Gắn móng giả"
+            ],
+            "answer": "Dùng mặt mịn của dũa giấy"
+        },
+        {
+            "question": "Dung dịch tẩy uế phải được thay đổi:",
+            "options": [
+                "Hàng tuần",
+                "Khi nước bị đục, vàng ố (sau mỗi lần ngâm vào)",
+                "Hàng ngày",
+                "Hàng tháng"
+            ],
+            "answer": "Khi nước bị đục, vàng ố (sau mỗi lần ngâm vào)"
+        },
+        {
+            "question": "Điều nào sau đây nói về Onychia:",
+            "options": [
+                "Sự bong móng",
+                "Sưng trên móng tay (viêm đệm móng)",
+                "Móng mọc lộn vào",
+                "Da chai"
+            ],
+            "answer": "Sưng trên móng tay"
+        },
+        {
+            "question": "Làm sai vĩnh viễn hình dáng của móng thiệt có thể xảy ra nếu phần nào của móng bị thương:",
+            "options": [
+                "Thân móng",
+                "Gốc non (móng non)",
+                "Đầu móng",
+                "Hyponychium"
+            ],
+            "answer": "Gốc non (móngnon)"
+        },
+        {
+            "question": "Với điều nào sau đây đòi hỏi MSDS cho mỗi sản phẩm hữu hiệu:",
+            "options": [
+                "FDA",
+                "EPA",
+                "OSHA (Cơ quan quản lý vấn đề an toàn và sức khỏe lao động)",
+                "Hội đồng y tế tiểu bang"
+            ],
+            "answer": "OSHA(Cơ quan quản lý vấn đề an toàn và sức khỏe lao động)"
+        },
+        {
+            "question": "Kem và dầu gây cho thuốc tẩy uế trở nên:",
+            "options": [
+                "Hiệu quả hơn",
+                "Kém hiệu quả",
+                "Không thay đổi",
+                "Tạo mùi thơm"
+            ],
+            "answer": "Kém hiệu quả"
+        },
+        {
+            "question": "Đầu móng nhân tạo được làm ngắn trước nhất bằng cách:",
+            "options": [
+                "Dũa giấy",
+                "Dũa điện",
+                "Kiềm cắt móng lớn",
+                "Cắt bằng kéo"
+            ],
+            "answer": "Kiềm cắt móng lớn"
+        },
+        {
+            "question": "Định giá sức mạnh của móng nhân tạo gắn lên móng thật, chuyên viên thực hành cần phải nhìn vùng:",
+            "options": [
+                "Gốc móng",
+                "Thân móng",
+                "Đầu móng",
+                "Hai bên móng"
+            ],
+            "answer": "Đầu móng"
+        },
+        {
+            "question": "Sự xoa bóp (mátxa) không nên làm cho khách hàng có những điều kiện nào sau đây:",
+            "options": [
+                "Móng chẻ",
+                "Áp suất máu cao (đau tim, đột quỵ)",
+                "Da khô",
+                "Móng ngắn"
+            ],
+            "answer": "Áp suất máu cao (đau tim, đột quỵ)"
+        },
+        {
+            "question": "Lợi ích nào của sự chà xát xoa bóp:",
+            "options": [
+                "Tiêu diệt vi khuẩn",
+                "Sự thư giãn",
+                "Làm cứng da",
+                "Làm sạch"
+            ],
+            "answer": "Sự thư giãn"
+        },
+        {
+            "question": "Danh từ chuyên môn cho móng tay là gì:",
+            "options": [
+                "Eponychium",
+                "Móng thật (natural nail/onyx)",
+                "Hyponychium",
+                "Matrix"
+            ],
+            "answer": "Móng thật (natural nail/onyx)"
+        },
+        {
+            "question": "Acrylic, chất lỏng, và những chất Primer cần phải được cất giữ ở trong:",
+            "options": [
+                "Nơi nóng, sáng",
+                "Chỗ mát, tối",
+                "Tủ lạnh",
+                "Trên bàn làm việc"
+            ],
+            "answer": "Chỗ mát, tối"
+        },
+        {
+            "question": "Sự hướng dẫn tẩy uế làm chân nước hàng tuần đòi hỏi dung dịch tẩy uế nên được giữ trong bồn:",
+            "options": [
+                "Sau mỗi lần dùng",
+                "Qua đêm",
+                "30 phút",
+                "1 giờ"
+            ],
+            "answer": "Qua đêm"
+        },
+        {
+            "question": "Tại sao lớp son lót (Base coat) được bôi lên:",
+            "options": [
+                "Làm cho sơn bóng được giữ chặt",
+                "Chữa bệnh móng",
+                "Làm móng cứng hơn",
+                "Tạo mùi thơm"
+            ],
+            "answer": "Làm cho sơn bóng được giữ chặt"
+        },
+        {
+            "question": "Trong tiêu chuẩn sắp đặt bàn cho việc làm gia tăng móng bột, cái gì sau đây cần được dùng:",
+            "options": [
+                "Gel UV",
+                "Chất lỏng acrylic (liquid monomer)",
+                "Primer dạng nước",
+                "Acetone"
+            ],
+            "answer": "Chất lỏng acrylic (liquidmonomer)"
+        }
+    ],
+    "Tập 14: Kỹ thuật Dũa điện và Vệ sinh": [
+        {
+            "question": "Khi dùng mũi mài điện phía trên của móng góc cạnh luôn là:",
+            "options": [
+                "90 độ",
+                "Song đối với móng",
+                "45 độ",
+                "60 độ"
+            ],
+            "answer": "Song đối với móng"
+        },
+        {
+            "question": "Với cơ bắp nào phân tách giữa ngón tay:",
+            "options": [
+                "Cơ khép",
+                "Cơ xoè móng tay",
+                "Cơ duỗi",
+                "Cơ cẳng tay"
+            ],
+            "answer": "Cơ xoè móng tay"
+        },
+        {
+            "question": "Với loại bao tay nào sau đây sẽ bảo vệ vi trùng tốt nhất:",
+            "options": [
+                "Cotton",
+                "Latex",
+                "Ni_tri_le (Nitrile)",
+                "Nhựa thường"
+            ],
+            "answer": "Ni_tri_le (Nitrile)"
+        },
+        {
+            "question": "Dùng chất khử trùng tay sẽ là một kiểu mẫu của:",
+            "options": [
+                "Khử trùng",
+                "Sự vệ sinh",
+                "Tiệt trùng",
+                "Phòng ngừa phổ thông"
+            ],
+            "answer": "Sự vệ sinh"
+        },
+        {
+            "question": "Sự chữa trị có hiệu quả không trong việc hơi ẩm bị giữ trong da trong lúc hơi nóng mở những lỗ chân lông:",
+            "options": [
+                "Sơn gel",
+                "Sự chữa trị bằng dầu paraffin",
+                "Massage",
+                "Ngâm nước lạnh"
+            ],
+            "answer": "Sự chữa trị bằng dầu paraffin"
+        },
+        {
+            "question": "Điều nào sau đây là đúng phương thức tẩy uế các dụng cụ làm nóng kim loại:",
+            "options": [
+                "Lau bằng cồn",
+                "Ngâm trong thuốc diệt trùng, diệt độc tố và thuốc sát ký sinh vi khuẩn",
+                "Rửa bằng xà phòng",
+                "Chỉ lau khô"
+            ],
+            "answer": "Ngâm trong thuốc diệt trùng, diệt độc tố và thuốc sát ký sinh vi khuẩn"
+        },
+        {
+            "question": "Các phân tử được làm thành như thế nào:",
+            "options": [
+                "Bởi sự kết hợp 1 nguyên tử",
+                "Bởi sự kết hợp 2 hay nhiều nguyên tử",
+                "Bởi sự phân chia",
+                "Bởi sự bay hơi"
+            ],
+            "answer": "Bởi sự kết hợp 2 hay nhiều nguyên tử"
+        },
+        {
+            "question": "Sau khi hoàn tất dịch vụ, chỉ bao gồm việc đổi nước sơn, chuyên viên thực hành (người thợ) phải:",
+            "options": [
+                "Chỉ rửa tay",
+                "Vệ sinh và tẩy uế cái bàn",
+                "Khử trùng dụng cụ",
+                "Bôi dầu"
+            ],
+            "answer": "Vệ sinh và tẩy uế cái bàn"
+        },
+        {
+            "question": "Ở điểm nào khi thăm viếng văn phòng salon khách hàng phải được hỏi về dị ứng:",
+            "options": [
+                "Trong khi làm dịch vụ",
+                "Sau khi kí tên đến nhưng trước khi cung cấp dịch vụ",
+                "Sau khi hoàn tất",
+                "Khi tư vấn sản phẩm"
+            ],
+            "answer": "Sau khi kí tên đến nhưng trước khi cung cấp dịch vụ"
+        },
+        {
+            "question": "Không làm thăng bằng (đầy đặn) móng bột, móng sẽ bắt đầu thấy:",
+            "options": [
+                "Tự nhiên và bằng phẳng",
+                "Không tự nhiên và không bằng phẳng",
+                "Mềm hơn",
+                "Dễ tháo hơn"
+            ],
+            "answer": "Không tự nhiên và không bằng phẳng"
+        },
+        {
+            "question": "Làm gia tăng sự bóng loáng việc hoàn tất móng bột, người thợ phải dùng:",
+            "options": [
+                "Dũa 80-100 độ nhám",
+                "180-240 độ nhám lưỡi dũa",
+                "Dũa kim cương",
+                "Chỉ dùng buffer"
+            ],
+            "answer": "180-240 độ nhám lưỡi dũa"
+        },
+        {
+            "question": "Mũi của loại dũa điện nào, đường viền như lưỡi dao cạo được biết như là đường rãnh:",
+            "options": [
+                "Cát-bua",
+                "Kim cương",
+                "Niken",
+                "Đá"
+            ],
+            "answer": "Kim cương"
+        },
+        {
+            "question": "Mục đích của nước sơn móng Primer là gì:",
+            "options": [
+                "Làm nóng móng",
+                "Tẩy uế móng trước khi được dính với vật liệu chất móng bột (Acrylic material)",
+                "Chữa nấm",
+                "Làm mềm móng"
+            ],
+            "answer": "Tẩy uế móng trước khi được dính với vật liệu chất móng bột (Acrylicmaterial)"
+        },
+        {
+            "question": "Khi nào bàn tay của khách hàng nên được rửa:",
+            "options": [
+                "Chỉ trước khi bắt đầu",
+                "Thường xuyên khi cần",
+                "Chỉ sau khi hoàn tất",
+                "Khi ngâm"
+            ],
+            "answer": "Thường xuyên khi cần"
+        },
+        {
+            "question": "Kẽ hở (thẩm thấu) được mô tả như là được làm bằng hay cấu tạo bởi:",
+            "options": [
+                "Vật liệu không thấm nước",
+                "Vật liệu thấm nước",
+                "Hóa chất",
+                "Nước"
+            ],
+            "answer": "Vật liệu thấm nước"
+        },
+        {
+            "question": "Với những tình trạng nào là hình thức của ung thư da:",
+            "options": [
+                "Nấm chân",
+                "Dấu đen hay nâu đậm trên da (melanoma)",
+                "Mụn cơm",
+                "Da chai"
+            ],
+            "answer": "Dấu đen hay nâu đậm trên da (melanoma)"
+        },
+        {
+            "question": "Cái gì sau đây dùng để sửa chữa móng tay bị vàng:",
+            "options": [
+                "Acetone",
+                "Thuốc tẩy móng",
+                "Primer",
+                "Dầu thoa da"
+            ],
+            "answer": "Thuốc tẩy móng"
+        },
+        {
+            "question": "Bao lâu bồn làm chân phải được tẩy uế:",
+            "options": [
+                "Hàng ngày",
+                "Sau mỗi lần làm chân",
+                "Hàng tuần",
+                "Qua đêm"
+            ],
+            "answer": "Sau mỗi lần làm chân"
+        },
+        {
+            "question": "Phương thức trước khi làm móng bột bao gồm việc chào đón khách hàng và:",
+            "options": [
+                "Làm sạch bằng acetone",
+                "Mời khách hàng rửa tay của họ với xà phòng sát trùng",
+                "Đeo bao tay",
+                "Thẩm định móng"
+            ],
+            "answer": "Mời khách hàng rửa tay của họ với xà phòng sát trùng"
+        },
+        {
+            "question": "Định nghĩa của Onychosis là gì:",
+            "options": [
+                "Bệnh nhiễm trùng",
+                "Danh từ chuyên môn cho bệnh móng",
+                "Sự bong móng",
+                "Móng mọc lộn vào"
+            ],
+            "answer": "Danh từ chuyên môn cho bệnh móng"
+        }
+    ],
+    "Tập 15: Hóa học, Sinh học và Tiêu chuẩn": [
+        {
+            "question": "Hợp chất của Monomer và Polymer sẽ gây ra:",
+            "options": [
+                "Bay hơi",
+                "Phản ứng hoá học",
+                "Đông lại",
+                "Hấp thụ"
+            ],
+            "answer": "Phản ứng hoá học"
+        },
+        {
+            "question": "Khi đắp móng bột lên móng bị cắn, chất sơn Primer (chậm nhẹ) cần phải được bôi ở:",
+            "options": [
+                "Đầu móng",
+                "Thân móng",
+                "Gốc móng",
+                "Da quanh móng"
+            ],
+            "answer": "Thân móng"
+        },
+        {
+            "question": "Hoá chất hoà tan được chất khác được biết là:",
+            "options": [
+                "Chất xúc tác",
+                "Nước dung môi làm tan vật khác (Solvent)",
+                "Polymer",
+                "Primer"
+            ],
+            "answer": "Nước dung môi làm tan vật khác"
+        },
+        {
+            "question": "Bệnh gây ra bởi nấm da:",
+            "options": [
+                "Mụn cơm",
+                "Lát đồng tiền",
+                "Melanoma",
+                "Rối loạn móng"
+            ],
+            "answer": "Lát đồng tiền"
+        },
+        {
+            "question": "Mức độ thấp nhất của sự chống ô nhiễm truyền bệnh được gọi là:",
+            "options": [
+                "Khử trùng",
+                "Sự vệ sinh",
+                "Tiệt trùng",
+                "Phòng ngừa phổ thông"
+            ],
+            "answer": "Sự vệ sinh"
+        },
+        {
+            "question": "Xoa bóp bàn chân thì không được khuyến cáo cho khách hàng có:",
+            "options": [
+                "Da khô",
+                "Móng chẻ",
+                "Tình trạng tim (Áp suất máu cao)",
+                "Mụn cơm"
+            ],
+            "answer": "Tình trạng tim"
+        },
+        {
+            "question": "Dụng cụ được lau chùi sạch bằng xà phòng và nước, làm khô và đặt trong tủ có ánh sáng:",
+            "options": [
+                "Vệ sinh",
+                "Mức độ tẩy uế của bệnh viện",
+                "Khử trùng",
+                "Tiệt trùng"
+            ],
+            "answer": "Mức độ tẩy uế của bệnh viện"
+        },
+        {
+            "question": "Trong lúc chất dẻo UV dính kết, phản ứng phát hiện xảy ra, là kết quả của:",
+            "options": [
+                "Bay hơi",
+                "Sự co rút lại",
+                "Phản ứng vật lý",
+                "Hấp thụ"
+            ],
+            "answer": "Sự co rút lại"
+        },
+        {
+            "question": "Đắp quá mỏng, phơi bày nền móng, có thể xảy ra:",
+            "options": [
+                "Móng cứng hơn",
+                "Móng nhiễm trùng từ đầu móng tới nền móng (Onychia)",
+                "Móng bóng",
+                "Dễ tháo"
+            ],
+            "answer": "Móng nhiễm trùng từ đầu móng tới nền móng (Onychia)"
+        },
+        {
+            "question": "Nhiệm vụ của tế bào hồng huyết cầu là gì:",
+            "options": [
+                "Bảo vệ và tiêu diệt vi khuẩn",
+                "Mang- chuyển dưỡng khí",
+                "Sản xuất máu",
+                "Chữa bệnh"
+            ],
+            "answer": "Mang- chuyển dưỡng khí"
+        },
+        {
+            "question": "Nhiệm vụ của bạch huyết cầu là:",
+            "options": [
+                "Mang- chuyển dưỡng khí",
+                "Bảo vệ và tiêu diệt vi khuẩn tấn công cơ thể",
+                "Làm đông máu",
+                "Sản xuất máu"
+            ],
+            "answer": "Bảo vệ và tiêu diệt vi khuẩn tấn công cơ thể"
+        },
+        {
+            "question": "Phần nối dài của biểu bì ở nền thân móng là gì:",
+            "options": [
+                "Hyponychium",
+                "Da mọc nền bán nguyệt móng (Eponychium)",
+                "Gốc móng",
+                "Thân móng"
+            ],
+            "answer": "Damọc nền bán nguyệt móng (Eponychium)"
+        },
+        {
+            "question": "Với cái nào sau đây MSDS (Bảng chỉ dẫn an toàn hoá chất) có nêu lên:",
+            "options": [
+                "Giá dịch vụ",
+                "Các thành phần nguy hiểm",
+                "Cách dùng",
+                "Tên thợ"
+            ],
+            "answer": "Các thành phần nguy hiểm"
+        },
+        {
+            "question": "Vật làm mất chất nước ở móng được coi là tạm thời bởi những chất dầu thiên nhiên và chất ẩm sau:",
+            "options": [
+                "10 phút",
+                "30 phút",
+                "1 giờ",
+                "24 giờ"
+            ],
+            "answer": "30 phút"
+        },
+        {
+            "question": "Dụng cụ bằng kim loại va chạm với máu không thể được dùng cho khách hàng khác cho đến khi:",
+            "options": [
+                "Rửa sạch bằng nước",
+                "Tẩy uế với tiêu chuẩn bệnh viện",
+                "Lau bằng cồn",
+                "Ngâm qua đêm"
+            ],
+            "answer": "Tẩy uế với tiêu chuẩn bệnh viện"
+        },
+        {
+            "question": "Mài dũa độ sang bóng trên nền móng là bao nhiêu:",
+            "options": [
+                "80 - 100",
+                "180 - 240",
+                "280 - 300 (Grit)",
+                "Trên 300"
+            ],
+            "answer": "280 - 300"
+        },
+        {
+            "question": "Trường mới của thẩm mỹ sẽ được đòi hỏi bao gồm ít nhất là bao nhiêu:",
+            "options": [
+                "1000 feet vuông",
+                "2500 feet vuông",
+                "5000 feet vuông",
+                "1500 feet vuông"
+            ],
+            "answer": "Sàn làm việc rộng 2500 feet vuông"
+        },
+        {
+            "question": "Hội đồng y tế tiểu bang chỉ định bao nhiêu uỷ viên cho uỷ ban cố vấn kĩ thuật, thẩm mỹ mỗi 2 năm:",
+            "options": [
+                "5",
+                "10",
+                "15",
+                "20"
+            ],
+            "answer": "10"
+        },
+        {
+            "question": "Dụng cụ được lau chùi sạch bằng xà phòng và nước làm khô và đặt trong tủ có ánh sáng:",
+            "options": [
+                "Khử trùng",
+                "Mức độ tẩy uế của bệnh viện",
+                "Tiệt trùng",
+                "Vệ sinh"
+            ],
+            "answer": "Mức độ tẩy uế của bệnh viện"
+        },
+        {
+            "question": "Có bao nhiêu % huấn luyện học viên phải hoàn tất trong việc thiết lập bằng để được làm việc dưới đây:",
+            "options": [
+                "100%",
+                "75%",
+                "50%",
+                "Cá nhân không có bằng không được phép thực hành trong việc thiết lập bằng"
+            ],
+            "answer": "Cá nhân không có bằng không được phép thực hành trong việc thiết lập bằng"
+        }
+    ],
+    "Tập 16: Phân loại, Bệnh lý và Hóa chất": [
+        {
+            "question": "Fragella (lông giả) là 1 dạng vi trùng:",
+            "options": [
+                "Cocci (hình cầu)",
+                "Bacilli (hình que)",
+                "Spirilla (hình xoắn)",
+                "Nấm"
+            ],
+            "answer": "Bacilli (hìnhque)"
+        },
+        {
+            "question": "Khi tiếp xúc với máu phô ra cần:",
+            "options": [
+                "Tiếp tục dịch vụ",
+                "Ngừng ngay dịch vụ",
+                "Chỉ đeo bao tay",
+                "Rửa tay sau khi làm xong"
+            ],
+            "answer": "Ngừng ngay dịch vụ"
+        },
+        {
+            "question": "Định nghĩa của Onychosis là gì:",
+            "options": [
+                "Sự nhiễm trùng",
+                "Danh từ chuyên môn cho bệnh móng",
+                "Sự bong móng",
+                "Da chai"
+            ],
+            "answer": "Danh từ chuyên môn cho bệnh móng"
+        },
+        {
+            "question": "Onyx danh từ chỉ:",
+            "options": [
+                "Móng giả",
+                "Móng thật (Natural Nail)",
+                "Polymer",
+                "Monomer"
+            ],
+            "answer": "Móng thật"
+        },
+        {
+            "question": "Hợp chất để tạo sự kết dính của 2 hợp chất:",
+            "options": [
+                "Acetone và Primer",
+                "Polymer và Monomer",
+                "Gel và đèn UV",
+                "Nước và xà phòng"
+            ],
+            "answer": "Polymer và Monomer"
+        },
+        {
+            "question": "Tuổi đòi hỏi cho chuyên viên thẩm mỹ làm móng hay chuyên viên thẩm mỹ ở Arkansas:",
+            "options": [
+                "18",
+                "21",
+                "16",
+                "14"
+            ],
+            "answer": "16"
+        },
+        {
+            "question": "Những vết bẩn và vết bạc màu có thể lấy đi trên da và móng với:",
+            "options": [
+                "Acetone",
+                "Hydrogen peroxide (H2O2)",
+                "Primer",
+                "Monomer"
+            ],
+            "answer": "Hydrogen peroxide(H2O2)"
+        },
+        {
+            "question": "Chất tiệt trùng, hợp chất quatemary ammonium compouds cần:",
+            "options": [
+                "Ngâm thời gian ngắn",
+                "Ngâm thời gian lâu",
+                "Lau khô",
+                "Rửa sạch ngay"
+            ],
+            "answer": "Ngâm thời gian lâu"
+        },
+        {
+            "question": "Sự tiệt trùng là tiến trình:",
+            "options": [
+                "Tiêu diệt vi trùng có hại",
+                "Tiêu diệt vi trùng có hại và có lợi (Toàn bộ vi khuẩn)",
+                "Làm sạch",
+                "Ngăn chặn sự phát triển"
+            ],
+            "answer": "Tiêu diệt vi trùng có hại và có lợi"
+        },
+        {
+            "question": "Khả năng kháng bệnh, chống lại vi trùng bệnh còn gọi là:",
+            "options": [
+                "Sự nhiễm trùng",
+                "Sự miễn nhiễm",
+                "Sự vệ sinh",
+                "Sự phòng ngừa phổ thông"
+            ],
+            "answer": "Sự miễn nhiễm"
+        },
+        {
+            "question": "Chất nào làm chậm đi sự mau khô của chất chùi nước sơn:",
+            "options": [
+                "Acetone",
+                "Monomer",
+                "Dầu",
+                "Cồn"
+            ],
+            "answer": "Dầu"
+        },
+        {
+            "question": "Mụn nhọt là 1 ví dụ của:",
+            "options": [
+                "Sự nhiễm trùng toàn thân",
+                "Sự nhiễm trùng tại chỗ",
+                "Bệnh rối loạn móng",
+                "Ung thư da"
+            ],
+            "answer": "Sự nhiễm trùng tại chỗ"
+        },
+        {
+            "question": "Bạn dùng hoá chất nào để lấy đi giọt dầu cuối cùng dính trên móng kiến sơn được bóng:",
+            "options": [
+                "Primer",
+                "Nước chùi sơn (Acetone/Cồn)",
+                "Dầu thoa da",
+                "Monomer"
+            ],
+            "answer": "Nước chùi sơn"
+        },
+        {
+            "question": "Loại tẩy nước bóng được sử dụng nếu khách đang mang móng giả:",
+            "options": [
+                "Thuốc tẩy có acetone",
+                "Thuốc tẩy không có acetone (Non-acetone)",
+                "Cồn 70 độ",
+                "Nước"
+            ],
+            "answer": "Thuốc tẩy không có acetone"
+        },
+        {
+            "question": "Chất nitricellulose có trong sản phẩm nào:",
+            "options": [
+                "Primer",
+                "Nước sơn móng",
+                "Monomer",
+                "Polymer"
+            ],
+            "answer": "Nước sơn móng"
+        },
+        {
+            "question": "Khi sửa chữa lằn nứt của móng bột, chuyên viên móng phải:",
+            "options": [
+                "Tháo móng ngay",
+                "Dũa “V” vào lằn nứt hay dũa bằng phẳng",
+                "Bôi keo",
+                "Đắp thêm bột"
+            ],
+            "answer": "Dũa “V” vào lằn nứt hay dũa bằng phẳng"
+        },
+        {
+            "question": "Mặt dính để lại trên móng khi có chứa chất nhựa dẻo UV (UV Gel) thì được gọi là:",
+            "options": [
+                "Primer",
+                "Lớp kết dính lại (Inhibition layer)",
+                "Monomer",
+                "Top coat"
+            ],
+            "answer": "Lớp kết dính lại"
+        },
+        {
+            "question": "Loại Gel làm cứng bằng đèn được hấp với:",
+            "options": [
+                "Nước",
+                "Đèn (UV/LED)",
+                "Không khí",
+                "Primer"
+            ],
+            "answer": "Đèn"
+        },
+        {
+            "question": "Chuyên viên thẩm mỹ có thể dùng cái gì để tẩy bỏ da chết:",
+            "options": [
+                "Kềm cắt da",
+                "Chất tẩy bỏ da chết (Cuticle Remover)",
+                "Acetone",
+                "Cây sủi kim loại"
+            ],
+            "answer": "Chất tẩy bỏ da chết"
+        },
+        {
+            "question": "Vật để thấm khi chạm với máu hay chất lỏng của cơ thể phải được:",
+            "options": [
+                "Rửa sạch",
+                "Quăng bỏ với 2 bịch nylon (tiêu chuẩn an toàn sinh học)",
+                "Khử trùng",
+                "Để vào thùng rác thường"
+            ],
+            "answer": "Quăng bỏ với 2 bịch nylon"
+        }
+    ],
+    "Tập 17: Dụng cụ, Quy trình và Tiêu chuẩn": [
+        {
+            "question": "Khi dùng dũa điện, đai cát nhám được đặt vào lưỡi mài gọi là:",
+            "options": [
+                "Lưỡi dao",
+                "Trục máy (mandrel)",
+                "Kim cương",
+                "Cát-bua"
+            ],
+            "answer": "Trục máy (mandrel)"
+        },
+        {
+            "question": "Khi nào phải nhật-tu mẫu hồ sơ sức khoẻ của khách hàng:",
+            "options": [
+                "Hàng năm",
+                "Sau mỗi dịch vụ",
+                "Khi khách thay đổi dịch vụ",
+                "Không cần thiết"
+            ],
+            "answer": "Sau mỗi dịch vụ"
+        },
+        {
+            "question": "Với loại cọ làm móng bột nào giữ số lượng chất lỏng ít nhất:",
+            "options": [
+                "Đầu tròn",
+                "Đầu nhọn",
+                "Đầu dẹt",
+                "Đầu vuông"
+            ],
+            "answer": "Đầu nhọn"
+        },
+        {
+            "question": "Bồn tẩy uế cần phải rộng lớn đủ:",
+            "options": [
+                "Chỉ ngâm được 1/2 dụng cụ",
+                "Cho hoàn toàn ngâm ngập",
+                "Chỉ bằng dụng cụ",
+                "Rộng hơn dụng cụ"
+            ],
+            "answer": "Cho hoàn toàn ngâm ngập"
+        },
+        {
+            "question": "Tiến trình của sự hình thành móng bột được gọi là:",
+            "options": [
+                "Bay hơi",
+                "Tiến trinh kết dính hoá học (polymeriztion)",
+                "Phản ứng vật lý",
+                "Thẩm thấu"
+            ],
+            "answer": "Tiến trinh kết dính hoá học (polymeriztion)"
+        },
+        {
+            "question": "Khi thân mô bị thâm nhập bởi bệnh do các vi sinh vật như là vi khuẩn, siêu vi khuẩn và nấm, nó được gọi là:",
+            "options": [
+                "Sự miễn nhiễm",
+                "Sự nhiễm trùng",
+                "Sự vệ sinh",
+                "Sự bong móng"
+            ],
+            "answer": "Sự nhiễm trùng"
+        },
+        {
+            "question": "Sau khi hoàn tất dịch vụ làm móng, chuyên viên thực hành hỏi khách hàng:",
+            "options": [
+                "Hỏi về giá",
+                "Hỏi sự hồi tố (ý kiến nhận xét)",
+                "Hỏi về dịch vụ khác",
+                "Hỏi về thanh toán"
+            ],
+            "answer": "Hỏi sự hồi tố (ý kiến nhận xét)"
+        },
+        {
+            "question": "Hình dáng riêng biệt nào để dũa móng chân:",
+            "options": [
+                "Tròn",
+                "Thẳng ngang",
+                "Nhọn",
+                "Bầu dục"
+            ],
+            "answer": "Thẳng ngang"
+        },
+        {
+            "question": "Tình trạng rối loạn nào sau đây của da thường được kết ướt với chuyên viên làm móng:",
+            "options": [
+                "Nấm chân",
+                "Bị trầy sướt",
+                "Ung thư da",
+                "Mụn cơm"
+            ],
+            "answer": "Bị trầy sướt"
+        },
+        {
+            "question": "Tình trạng nào của thân móng làm cho sự dính chặt tốt hơn:",
+            "options": [
+                "Ẩm ướt",
+                "Sạch trên mặt khô",
+                "Bóng sáng",
+                "Sần sùi"
+            ],
+            "answer": "Sạch trên mặt khô"
+        },
+        {
+            "question": "FDA là:",
+            "options": [
+                "Cơ quan Môi trường",
+                "Bảo vệ thực phẩm Hoa Kỳ (Food and Drug Administration)",
+                "Cơ quan An toàn Lao động",
+                "Hội đồng Y tế"
+            ],
+            "answer": "Bảo vệ thực phẩm Hoa Kỳ"
+        },
+        {
+            "question": "Chủ định của EPA là gì:",
+            "options": [
+                "An toàn Lao động",
+                "Môi trường vệ sinh (Environmental Protection Agency)",
+                "Bảo vệ Thực phẩm",
+                "Y tế"
+            ],
+            "answer": "Môi trường vệ sinh"
+        }
+    ]
+}
