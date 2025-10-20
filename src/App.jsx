@@ -215,7 +215,7 @@ function App() {
         </div>
 
         {/* Real-time Feedback Message */}
-        {false ? (
+        {feedback ? (
           <div
             className={`mt-6 text-center py-3 px-4 rounded-xl font-bold transition duration-300 ease-in-out transform shadow-lg
                 ${
