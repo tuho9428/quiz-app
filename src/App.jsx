@@ -215,7 +215,7 @@ function App() {
         </div>
 
         {/* Real-time Feedback Message */}
-        {feedback && (
+        {false ? (
           <div
             className={`mt-6 text-center py-3 px-4 rounded-xl font-bold transition duration-300 ease-in-out transform shadow-lg
                 ${
@@ -228,6 +228,10 @@ function App() {
               ? "✅ Đúng rồi! Tiếp nào..."
               : "❌ Sai. Cố lên nhé."}
           </div>
+        ) : (
+          <div
+            className={`mt-6 text-center py-3 px-4 rounded-xl font-bold transition duration-300 ease-in-out transform shadow-lg}`}
+          ></div>
         )}
 
         <div className="bg-white p-8 rounded-2xl shadow-xl border border-gray-200">
