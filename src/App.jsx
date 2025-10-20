@@ -147,11 +147,10 @@ function App() {
   const renderCategorySelection = () => (
     <div className="p-6">
       <h2 className="text-3xl font-extrabold text-gray-800 mb-6">
-        Select a Topic
+        Chọn một chủ đề
       </h2>
       <p className="text-gray-600 mb-8">
-        Choose a category to start your **{QUIZ_SIZE}** question practice
-        session.
+        Chọn một bài học có **{QUIZ_SIZE}** câu hỏi để bắt đầu luyện tập.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -165,7 +164,7 @@ function App() {
               {category}
             </h3>
             <p className="text-sm text-gray-500 mt-1">
-              {ALL_QUESTIONS_STRUCTURED[category].length} questions available
+              {ALL_QUESTIONS_STRUCTURED[category].length} câu hỏi sẵn có
             </p>
           </button>
         ))}
@@ -209,9 +208,9 @@ function App() {
     return (
       <div className="p-6">
         <div className="mb-6 flex justify-between items-center text-sm font-medium text-indigo-700 bg-indigo-50 p-3 rounded-xl shadow-inner">
-          <p>Category: {selectedCategory}</p>
+          <p>Đề tài: {selectedCategory}</p>
           <p>
-            Question {currentQuestionIndex + 1} of {totalQuestions}
+            Câu hỏi {currentQuestionIndex + 1} của {totalQuestions}
           </p>
         </div>
 
@@ -226,8 +225,8 @@ function App() {
                 }`}
           >
             {feedback === "correct"
-              ? "✅ Correct! Moving on..."
-              : "❌ Incorrect. The correct answer is highlighted."}
+              ? "✅ Đúng rồi! Tiếp nào..."
+              : "❌ Sai. Cố lên nhé."}
           </div>
         )}
 
@@ -281,24 +280,24 @@ function App() {
       <div className="p-6 text-center">
         <div className="bg-white p-10 rounded-2xl shadow-xl border border-gray-200">
           <h2 className="text-4xl font-extrabold text-gray-800 mb-4">
-            Quiz Complete! 🎉
+            Kiểm tra hoàn tất! 🎉
           </h2>
           <p className="text-xl text-gray-600 mb-8">
-            You finished the **{selectedCategory}** session.
+            Bản đã hoàn thành **{selectedCategory}**.
           </p>
 
           <div className={`text-6xl font-bold mb-4 ${resultColor}`}>
             {percentage}%
           </div>
           <p className="text-2xl font-semibold text-gray-700 mb-10">
-            Score: {score} out of {totalQuestions}
+            Điểm: {score} trên {totalQuestions}
           </p>
 
           <button
             onClick={restartSelection}
             className="w-full sm:w-auto px-8 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow-lg hover:bg-indigo-700 transition duration-300 focus:outline-none focus:ring-4 focus:ring-indigo-500 focus:ring-opacity-50"
           >
-            Start a New Quiz
+            Bắt đầu lại
           </button>
         </div>
       </div>
