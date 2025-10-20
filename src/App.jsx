@@ -125,7 +125,7 @@ function App() {
         } else {
           setQuizFinished(true);
         }
-      }, 1000); // 1 second delay for feedback
+      }, 2000); // 1 second delay for feedback
     },
     [quizQuestions, currentQuestionIndex, isLocked]
   );
