@@ -250,7 +250,7 @@
                 "Gel xây dựng (builder gel)",
                 "UV gel"
             ],
-            "answer": "Gel xây dựng"
+            "answer": "Gel xây dựng (builder gel)"
         },
         {
             "question": "Đầu dũa nào dùng để dũa bột:",
@@ -432,7 +432,7 @@
                 "Gel (UV gel)",
                 "Primer"
             ],
-            "answer": "Gel"
+            "answer": "Gel (UV gel)"
         },
         {
             "question": "Khăn sau khi dùng cho khách nên làm gì:",
@@ -468,7 +468,7 @@
             "question": "Móng khóe là móng gì:",
             "options": [
                 "Móng chẻ",
-                "Móng cạnh (Ingrown nail)",
+                "Móng cạnh",
                 "Móng vỏ trứng",
                 "Móng nhọn"
             ],
@@ -684,7 +684,7 @@
                 "Khử trùng bàn",
                 "Tiệt trùng dụng cụ"
             ],
-            "answer": "Rửa tay (vệ sinh) bằng xà phòng+ nước"
+            "answer": "Rửa tay (vệ sinh) bằng xà phòng + nước"
         },
         {
             "question": "Phần nối dài của biểu bì ở nền thân móng là gì?",
@@ -794,7 +794,7 @@
                 "Phơi nhiễm chéo (Cross-contamination)",
                 "Tiệt trùng"
             ],
-            "answer": "Phơi nhiễm chéo"
+            "answer": "Phơi nhiễm chéo (Cross-contamination)"
         },
         {
             "question": "Phương thức trước khi làm móng bột bao gồm?",
@@ -906,7 +906,7 @@
                 "Xương chày + xương bàn chân",
                 "Xương mác + xương bàn chân"
             ],
-            "answer": "Xương chày + xương mác (ankles+ tarsal bones)"
+            "answer": "Xương chày + xương mác (ankles + tarsal bones)"
         },
         {
             "question": "Khách hàng đắp móng bột 1 thời gian thì da bị đỏ và sưng tấy lên, khách đến thì nên làm gì?",
@@ -1014,7 +1014,7 @@
             "question": "Gắn tip khác với gel bột như thế nào?",
             "options": [
                 "UV gel",
-                "Đèn UV (gel bột cần đèn UV, tip không cần)",
+                "Đèn UV",
                 "Acetone",
                 "Primer"
             ],
@@ -1178,7 +1178,7 @@
                 "Chất chà xát (Scrub/Exfoliant)",
                 "Nước sơn móng"
             ],
-            "answer": "Chất chà xát"
+            "answer": "Chất chà xát (Scrub/Exfoliant)"
         },
         {
             "question": "Massage kèm theo động tác nào?",
@@ -1220,7 +1220,7 @@
                 "Đồ phòng hộ y tế (khẩu trang, kính, găng tay)",
                 "Dùng nước"
             ],
-            "answer": "Đồ phòng hộ y tế"
+            "answer": "Đồ phòng hộ y tế (khẩu trang, kính, găng tay)"
         },
         {
             "question": "Chất xúc tác làm nhanh?",
@@ -1250,7 +1250,7 @@
                 "Primer",
                 "Cồn"
             ],
-            "answer": "Chất lau chùi nhà"
+            "answer": "Chất lau chùi nhà (nước tẩy)"
         },
         {
             "question": "Hai mũi dũa nào không được dùng trên móng thật?",
@@ -1300,7 +1300,7 @@
                 "Cần đèn UV",
                 "Không cần monomer"
             ],
-            "answer": "Không cần dùng tip"
+            "answer": "Không cần dùng tip (dùng form giấy)"
         },
         {
             "question": "Bước cuối cùng khi làm khô gel, làm tẩy bỏ bột chất dính?",
@@ -1410,7 +1410,7 @@
                 "Không có hại (không gây bệnh)",
                 "Gây nhiễm trùng"
             ],
-            "answer": "Không có hại"
+            "answer": "Không có hại (không gây bệnh)"
         }
     ],
     "Tập 8: Xử lý Vấn đề và Sinh học": [
@@ -1422,7 +1422,7 @@
                 "Tháo hết móng",
                 "Dùng gel đắp lên"
             ],
-            "answer": "Dũa phần còn lại"
+            "answer": "Dũa phần còn lại (phần bột bị bể/nứt)"
         },
         {
             "question": "Bạn có thể phục vụ cho khách với móng mốc và nấm là?",
@@ -1462,7 +1462,7 @@
                 "Vệ sinh (rửa tay)",
                 "Dùng bao tay"
             ],
-            "answer": "Vệ sinh"
+            "answer": "Vệ sinh (rửa tay)"
         },
         {
             "question": "Bệnh gây ra từ nấm còn gọi là gì?",
@@ -1482,7 +1482,7 @@
                 "Dũa móng",
                 "Sát trùng tay thợ"
             ],
-            "answer": "Đeo bao tay cho mìnhvà yêu cầu khách rửa tay"
+            "answer": "Đeo bao tay cho mình và yêu cầu khách rửa tay"
         },
         {
             "question": "Làm sạch và vệ sinh móng cho khách trước khi làm móng giả vì?",
@@ -1572,7 +1572,7 @@
                 "Sculptured",
                 "Overlay"
             ],
-            "answer": "Fill"
+            "answer": "Fill (Refill)"
         },
         {
             "question": "Unar là xương cánh tay trước dọc theo?",
@@ -1650,7 +1650,7 @@
             "question": "Tẩy uế, khử trùng, đưa vào lọ có đèn UV gọi là?",
             "options": [
                 "Vệ sinh",
-                "Khử trùng mức độ bệnh viện",
+                "Tẩy uế mức độ bệnh viện",
                 "Tiệt trùng",
                 "Khử trùng"
             ],
@@ -1744,7 +1744,7 @@
                 "Sơn gel",
                 "Làm móng bột"
             ],
-            "answer": "Làm hẹp tép tren móng dày"
+            "answer": "Làm hẹp tép trên móng dày"
         },
         {
             "question": "Dũa kim loại thay cho dũa giấy để?",
@@ -1764,7 +1764,7 @@
                 "Màng bọc móng (Móng non)",
                 "Gốc móng"
             ],
-            "answer": "Màng bọc móng"
+            "answer": "Màng bọc móng (Móng non)"
         },
         {
             "question": "Dây thần kinh có trong?",
@@ -1790,7 +1790,7 @@
             "question": "Nơi nào bạn có thể tìm hiểu quy tắc an toàn sử dụng của sản phẩm?",
             "options": [
                 "Trong tiệm làm việc",
-                "SDS (MSDS)",
+                "MSDS",
                 "FDA",
                 "Hội đồng y tế"
             ],
@@ -1906,7 +1906,7 @@
                 "Tạo dáng móng - sơn - ngâm - chùi sơn",
                 "Ngâm - đẩy da chết - dũa - sơn"
             ],
-            "answer": "Chùi sơn cũ-tạo dáng móng(dũa)- ngâm vào tô(soak) - đẩy da chết - chà mặt móng(buffer)- sơn"
+            "answer": "Chùi sơn cũ - tạo dáng móng(dũa) - ngâm vào tô(soak) - đẩy da chết - chà mặt móng(buffer) - sơn"
         },
         {
             "question": "Móng bị nứt, có thể là nguyên nhân?",
@@ -2048,7 +2048,7 @@
                 "Cọ dùng chung",
                 "Tăm"
             ],
-            "answer": "Cọcó thể vứt bỏ"
+            "answer": "Cọ có thể vứt bỏ"
         },
         {
             "question": "Khi đặt vị trí hình mẫu móng trên ngón tay của khách hàng, nó phải vừa vặn:",
@@ -2068,7 +2068,7 @@
                 "Cắt da chết",
                 "Ngâm tay"
             ],
-            "answer": "Lau chùi đầu trên thân móng"
+            "answer": "Lau chùi đầu trên thân móng (đầu tự do)"
         },
         {
             "question": "Trong lúc chăm sóc bàn tay, chuyên viên làm gì để làm sạch thân móng:",
@@ -2088,7 +2088,7 @@
                 "Rửa tay",
                 "Băng vết thương"
             ],
-            "answer": "Tẩy uế chỗ làm"
+            "answer": "Tẩy uế chỗ làm (Tẩy uế bàn)"
         },
         {
             "question": "Với một cái nào sau đây là 1 thí dụ của triệu chứng khách quan (Có thể quan sát được):",
@@ -2214,7 +2214,7 @@
             "question": "Với những dụng cụ nào sau đây được dùng để làm sạch dưới đầu móng trong lúc làm tay:",
             "options": [
                 "Kềm cắt da",
-                "Cây nạo (Cây sủi)",
+                "Cây nạo",
                 "Dũa kim loại",
                 "Bàn chải móng"
             ],
@@ -2270,7 +2270,7 @@
                 "Dũa giấy",
                 "Đá mịn"
             ],
-            "answer": "Kim cương và cát bua(carbide)"
+            "answer": "Kim cương và cát bua (carbide)"
         },
         {
             "question": "Cái gì sẽ được hiểu qua của việc đánh bóng với chất đánh mịn vừa trước khi gần đầu móng:",
@@ -2290,7 +2290,7 @@
                 "Hấp thụ",
                 "Phơi nhiễm chéo"
             ],
-            "answer": "Sinh sản gián phân(mitosis)"
+            "answer": "Sinh sản gián phân (mitosis)"
         },
         {
             "question": "Cây dũa chân hay miếng gỗ vỗ chân được dùng để:",
@@ -2350,7 +2350,7 @@
                 "Humerus",
                 "Xương bàn tay"
             ],
-            "answer": "Xương cánh tay"
+            "answer": "Xương cánh tay (Unar)"
         },
         {
             "question": "Động tác nhồi bóp là gì:",
@@ -2360,7 +2360,7 @@
                 "Xoa bóp",
                 "Đấm bóp"
             ],
-            "answer": "Động tác nhồi bóp"
+            "answer": "Động tác nhồi bóp (pétrissage)"
         },
         {
             "question": "Các đường ở hai bên móng tay là:",
@@ -2390,7 +2390,7 @@
                 "1/2 thân móng",
                 "Đầu móng thật"
             ],
-            "answer": "Vách móng này qua váchmóng kia"
+            "answer": "Vách móng này qua vách móng kia"
         },
         {
             "question": "Nơi nào những dụng cụ tẩy uế được cất giữ:",
@@ -2502,7 +2502,7 @@
                 "Móng mọc lộn vào",
                 "Da chai"
             ],
-            "answer": "Sưng trên móng tay"
+            "answer": "Sưng trên móng tay (viêm đệm móng)"
         },
         {
             "question": "Làm sai vĩnh viễn hình dáng của móng thiệt có thể xảy ra nếu phần nào của móng bị thương:",
@@ -2512,7 +2512,7 @@
                 "Đầu móng",
                 "Hyponychium"
             ],
-            "answer": "Gốc non (móngnon)"
+            "answer": "Gốc non (móng non)"
         },
         {
             "question": "Với điều nào sau đây đòi hỏi MSDS cho mỗi sản phẩm hữu hiệu:",
@@ -2522,7 +2522,7 @@
                 "OSHA (Cơ quan quản lý vấn đề an toàn và sức khỏe lao động)",
                 "Hội đồng y tế tiểu bang"
             ],
-            "answer": "OSHA(Cơ quan quản lý vấn đề an toàn và sức khỏe lao động)"
+            "answer": "OSHA (Cơ quan quản lý vấn đề an toàn và sức khỏe lao động)"
         },
         {
             "question": "Kem và dầu gây cho thuốc tẩy uế trở nên:",
@@ -2622,7 +2622,7 @@
                 "Primer dạng nước",
                 "Acetone"
             ],
-            "answer": "Chất lỏng acrylic (liquidmonomer)"
+            "answer": "Chất lỏng acrylic (liquid monomer)"
         }
     ],
     "Tập 14: Kỹ thuật Dũa điện và Vệ sinh": [
@@ -2856,7 +2856,7 @@
                 "Polymer",
                 "Primer"
             ],
-            "answer": "Nước dung môi làm tan vật khác"
+            "answer": "Nước dung môi làm tan vật khác (Solvent)"
         },
         {
             "question": "Bệnh gây ra bởi nấm da:",
@@ -2886,7 +2886,7 @@
                 "Tình trạng tim (Áp suất máu cao)",
                 "Mụn cơm"
             ],
-            "answer": "Tình trạng tim"
+            "answer": "Tình trạng tim (Áp suất máu cao)"
         },
         {
             "question": "Dụng cụ được lau chùi sạch bằng xà phòng và nước, làm khô và đặt trong tủ có ánh sáng:",
@@ -2946,7 +2946,7 @@
                 "Gốc móng",
                 "Thân móng"
             ],
-            "answer": "Damọc nền bán nguyệt móng (Eponychium)"
+            "answer": "Da mọc nền bán nguyệt móng (Eponychium)"
         },
         {
             "question": "Với cái nào sau đây MSDS (Bảng chỉ dẫn an toàn hoá chất) có nêu lên:",
@@ -2986,15 +2986,15 @@
                 "280 - 300 (Grit)",
                 "Trên 300"
             ],
-            "answer": "280 - 300"
+            "answer": "280 - 300 (Grit)"
         },
         {
             "question": "Trường mới của thẩm mỹ sẽ được đòi hỏi bao gồm ít nhất là bao nhiêu:",
             "options": [
-                "1000 feet vuông",
-                "2500 feet vuông",
-                "5000 feet vuông",
-                "1500 feet vuông"
+                "Sàn làm việc rộng 1000 feet vuông",
+                "Sàn làm việc rộng 2500 feet vuông",
+                "Sàn làm việc rộng 5000 feet vuông",
+                "Sàn làm việc rộng 1500 feet vuông"
             ],
             "answer": "Sàn làm việc rộng 2500 feet vuông"
         },
@@ -3038,7 +3038,7 @@
                 "Spirilla (hình xoắn)",
                 "Nấm"
             ],
-            "answer": "Bacilli (hìnhque)"
+            "answer": "Bacilli (hình que)"
         },
         {
             "question": "Khi tiếp xúc với máu phô ra cần:",
@@ -3068,7 +3068,7 @@
                 "Polymer",
                 "Monomer"
             ],
-            "answer": "Móng thật"
+            "answer": "Móng thật (Natural Nail)"
         },
         {
             "question": "Hợp chất để tạo sự kết dính của 2 hợp chất:",
@@ -3098,7 +3098,7 @@
                 "Primer",
                 "Monomer"
             ],
-            "answer": "Hydrogen peroxide(H2O2)"
+            "answer": "Hydrogen peroxide (H2O2)"
         },
         {
             "question": "Chất tiệt trùng, hợp chất quatemary ammonium compouds cần:",
@@ -3118,7 +3118,7 @@
                 "Làm sạch",
                 "Ngăn chặn sự phát triển"
             ],
-            "answer": "Tiêu diệt vi trùng có hại và có lợi"
+            "answer": "Tiêu diệt vi trùng có hại và có lợi (Toàn bộ vi khuẩn)"
         },
         {
             "question": "Khả năng kháng bệnh, chống lại vi trùng bệnh còn gọi là:",
@@ -3158,7 +3158,7 @@
                 "Dầu thoa da",
                 "Monomer"
             ],
-            "answer": "Nước chùi sơn"
+            "answer": "Nước chùi sơn (Acetone/Cồn)"
         },
         {
             "question": "Loại tẩy nước bóng được sử dụng nếu khách đang mang móng giả:",
@@ -3168,7 +3168,7 @@
                 "Cồn 70 độ",
                 "Nước"
             ],
-            "answer": "Thuốc tẩy không có acetone"
+            "answer": "Thuốc tẩy không có acetone (Non-acetone)"
         },
         {
             "question": "Chất nitricellulose có trong sản phẩm nào:",
@@ -3198,7 +3198,7 @@
                 "Monomer",
                 "Top coat"
             ],
-            "answer": "Lớp kết dính lại"
+            "answer": "Lớp kết dính lại (Inhibition layer)"
         },
         {
             "question": "Loại Gel làm cứng bằng đèn được hấp với:",
@@ -3208,7 +3208,7 @@
                 "Không khí",
                 "Primer"
             ],
-            "answer": "Đèn"
+            "answer": "Đèn (UV/LED)"
         },
         {
             "question": "Chuyên viên thẩm mỹ có thể dùng cái gì để tẩy bỏ da chết:",
@@ -3218,7 +3218,7 @@
                 "Acetone",
                 "Cây sủi kim loại"
             ],
-            "answer": "Chất tẩy bỏ da chết"
+            "answer": "Chất tẩy bỏ da chết (Cuticle Remover)"
         },
         {
             "question": "Vật để thấm khi chạm với máu hay chất lỏng của cơ thể phải được:",
@@ -3228,7 +3228,7 @@
                 "Khử trùng",
                 "Để vào thùng rác thường"
             ],
-            "answer": "Quăng bỏ với 2 bịch nylon"
+            "answer": "Quăng bỏ với 2 bịch nylon (tiêu chuẩn an toàn sinh học)"
         }
     ],
     "Tập 17: Dụng cụ, Quy trình và Tiêu chuẩn": [
@@ -3340,7 +3340,7 @@
                 "Cơ quan An toàn Lao động",
                 "Hội đồng Y tế"
             ],
-            "answer": "Bảo vệ thực phẩm Hoa Kỳ"
+            "answer": "Bảo vệ thực phẩm Hoa Kỳ (Food and Drug Administration)"
         },
         {
             "question": "Chủ định của EPA là gì:",
@@ -3350,7 +3350,7 @@
                 "Bảo vệ Thực phẩm",
                 "Y tế"
             ],
-            "answer": "Môi trường vệ sinh"
+            "answer": "Môi trường vệ sinh (Environmental Protection Agency)"
         }
     ]
 }
