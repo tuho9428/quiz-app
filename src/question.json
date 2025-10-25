@@ -1784,7 +1784,7 @@
                 "Humerus (Xương cánh tay)",
                 "Xương cổ tay"
             ],
-            "answer": "Humerus"
+            "answer": "Humerus (Xương cánh tay)"
         },
         {
             "question": "Nơi nào bạn có thể tìm hiểu quy tắc an toàn sử dụng của sản phẩm?",
@@ -1866,7 +1866,7 @@
                 "Giảm nóng",
                 "Dũa nhanh hơn"
             ],
-            "answer": "Tránh ảnh hưởng đến da dưới đầu móng"
+            "answer": "Tránh ảnh hưởng đến da dưới đầu móng (Hyponychium)"
         },
         {
             "question": "Chất sodium hypochloride thường được biết là?",
@@ -1876,7 +1876,7 @@
                 "Chất tẩy lau nhà (Bleach)",
                 "Cồn"
             ],
-            "answer": "Chất tẩy lau nhà"
+            "answer": "Chất tẩy lau nhà (Bleach)"
         },
         {
             "question": "Tất cả dụng cụ làm móng phải được diệt trùng trước khi?",
@@ -2038,7 +2038,7 @@
                 "Canxi",
                 "Nước"
             ],
-            "answer": "Chất đạm"
+            "answer": "Chất đạm (Keratin)"
         },
         {
             "question": "Dầu móng phải được dùng bôi bằng:",
