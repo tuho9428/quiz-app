@@ -1,14 +1,14 @@
 import React, { useState, useCallback } from "react";
 import set1 from "./set1.json";
 import set2 from "./set2.json";
-// import set3 from "./set3.json"; // Add more sets as needed
+import set3 from "./set3.json"; // Add more sets as needed
 
 // --- DATA STRUCTURE ---
 // Each set is an object with multiple categories.
 const QUESTION_SETS = {
   "Bộ đề 1": set1,
   "Bộ đề 2": set2,
-  // "Bộ đề 3": set3,
+  "Bộ đề 3": set3,
 };
 
 const QUIZ_SIZE = 20;
