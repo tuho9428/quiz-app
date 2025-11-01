@@ -3,14 +3,16 @@ import set1 from "./set1.json";
 import set2 from "./set2.json";
 import set3 from "./set3.json";
 import set4 from "./set4.json";
+import set5 from "./set5.json";
 
 // --- DATA STRUCTURE ---
 // Each set is an object with multiple categories.
 const QUESTION_SETS = {
-  "Bộ đề 1": set1,
-  "Bộ đề 2": set2,
-  "Bộ đề 3": set3,
-  "Bộ đề 4": set4,
+  "Bộ đề 1 (2024)": set1,
+  "Bộ đề 2 (2025)": set2,
+  "Bộ đề 3 (2025)": set3,
+  "Bộ đề 4 (2024)": set4,
+  // "Bộ đề 5 (tham khảo)": set5,
 };
 
 const QUIZ_SIZE = 20;
@@ -240,7 +242,7 @@ function App() {
           </button>
         </div>
         {feedback && (
-          <div className="mt-4 flex items-center justify-between">
+          <div className="mt-4 flex items-center justify-between gap-4">
             <button
               onClick={handleNextQuestion}
               className="ml-4 px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow-lg hover:bg-indigo-700 transition duration-300"
