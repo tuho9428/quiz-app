@@ -112,17 +112,6 @@ function App() {
       } else {
         setFeedback("incorrect");
       }
-
-      setTimeout(() => {
-        setFeedback(null);
-        setIsLocked(false);
-
-        if (currentQuestionIndex < quizQuestions.length - 1) {
-          setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
-        } else {
-          setQuizFinished(true);
-        }
-      }, 2000);
     },
     [quizQuestions, currentQuestionIndex, isLocked]
   );
@@ -221,6 +210,17 @@ function App() {
       return `${base} bg-white hover:bg-indigo-50 border-gray-300 text-gray-700 hover:border-indigo-400`;
     };
 
+    const handleNextQuestion = () => {
+      setFeedback(null);
+      setIsLocked(false);
+
+      if (currentQuestionIndex < quizQuestions.length - 1) {
+        setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
+      } else {
+        setQuizFinished(true);
+      }
+    };
+
     return (
       <div className="p-6">
         <div className="mb-6 flex justify-between items-center text-sm font-medium text-indigo-700 bg-indigo-50 p-3 rounded-xl shadow-inner">
@@ -246,7 +246,7 @@ function App() {
             } text-white`}
           >
             {feedback === "correct"
-              ? "✅ Đúng rồi! Tiếp tục nào..."
+              ? "✅ Đúng rồi. Tuyệt vời!"
               : "❌ Sai rồi, cố lên nhé!"}
           </div>
         )}
@@ -280,6 +280,17 @@ function App() {
             ))}
           </div>
         </div>
+
+        {isLocked && (
+          <div className="mt-6 text-center">
+            <button
+              onClick={handleNextQuestion}
+              className="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow-lg hover:bg-indigo-700 transition duration-300"
+            >
+              Câu hỏi tiếp theo
+            </button>
+          </div>
+        )}
       </div>
     );
   };
