@@ -240,14 +240,22 @@ function App() {
           </button>
         </div>
         {feedback && (
-          <div
-            className={`mt-4 text-center py-3 px-4 rounded-xl font-bold shadow-lg ${
-              feedback === "correct" ? "bg-green-500" : "bg-red-500"
-            } text-white`}
-          >
-            {feedback === "correct"
-              ? "✅ Đúng rồi. Tuyệt vời!"
-              : "❌ Sai rồi, cố lên nhé!"}
+          <div className="mt-4 flex items-center justify-between">
+            <button
+              onClick={handleNextQuestion}
+              className="ml-4 px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow-lg hover:bg-indigo-700 transition duration-300"
+            >
+              Câu hỏi tiếp theo
+            </button>
+            <div
+              className={`py-3 px-4 rounded-xl font-bold shadow-lg ${
+                feedback === "correct" ? "bg-green-500" : "bg-red-500"
+              } text-white`}
+            >
+              {feedback === "correct"
+                ? "✅ Đúng rồi. Tuyệt vời!"
+                : "❌ Sai rồi, cố lên nhé!"}
+            </div>
           </div>
         )}
 
@@ -280,17 +288,6 @@ function App() {
             ))}
           </div>
         </div>
-
-        {isLocked && (
-          <div className="mt-6 text-center">
-            <button
-              onClick={handleNextQuestion}
-              className="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow-lg hover:bg-indigo-700 transition duration-300"
-            >
-              Câu hỏi tiếp theo
-            </button>
-          </div>
-        )}
       </div>
     );
   };
