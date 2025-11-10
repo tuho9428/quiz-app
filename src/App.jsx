@@ -12,7 +12,10 @@ const QUESTION_SETS = {
   "Bộ đề 2 (2025)": set2,
   "Bộ đề 3 (2025)": set3,
   "Bộ đề 4 (2024)": set4,
-  // "Bộ đề 5 (tham khảo)": set5,
+};
+
+const EXTRA_PRACTICE = {
+  "Practice Login": "login",
 };
 
 const QUIZ_SIZE = 20;
@@ -57,6 +60,128 @@ const CheckIcon = ({ color }) => (
     )}
   </svg>
 );
+
+const LoginPractice = ({ onBack }) => {
+  const [username, setUsername] = React.useState("");
+  const [password, setPassword] = React.useState("");
+  const [error, setError] = React.useState("");
+
+  const handleLogin = () => {
+    if (username === "336933275" && password === "wuxk7pxz") {
+      setError("✅ Đăng nhập thành công!");
+    } else {
+      setError("❌ Sai rồi, UserID hoặc Passcode sai.");
+    }
+  };
+
+  const clearError = () => {
+    // Clear input fields and error message
+    setError(null);
+  };
+  const clearInputField = () => {
+    // Clear input fields and error message
+    setUsername("");
+    setPassword("");
+  };
+
+  const retryAction = () => {
+    // Clear input fields and error message
+    setUsername("");
+    setPassword("");
+    setError(null);
+  };
+
+  return (
+    <div className="p-6">
+      <div className="flex justify-between items-center mb-6">
+        <h2 className="text-3xl font-extrabold text-gray-800">
+          Thực hành Đăng nhập
+        </h2>
+        <button onClick={onBack} className="text-sm text-indigo-600 underline">
+          ← Trở lại
+        </button>
+      </div>
+
+      <p className="text-gray-600 mb-8">Nhập UserID và Passcode của bạn.</p>
+
+      <div className="space-y-6">
+        {/* Username field */}
+        <div>
+          <label
+            htmlFor="username"
+            className="block text-sm font-semibold text-gray-700 mb-1"
+          >
+            UserID
+          </label>
+          <input
+            id="username"
+            type="text"
+            placeholder="123..."
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+            className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-400 focus:border-indigo-400"
+          />
+          <p className="text-xs text-gray-500 mt-1 hidden">
+            Use <span className="font-mono text-indigo-600">admin</span> as the
+            username.
+          </p>
+        </div>
+
+        {/* Password field */}
+        <div>
+          <label
+            htmlFor="password"
+            className="block text-sm font-semibold text-gray-700 mb-1"
+          >
+            Passcode
+          </label>
+          <input
+            id="password"
+            type="password"
+            placeholder="sdf..."
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-400 focus:border-indigo-400"
+          />
+          <p className="text-xs text-gray-500 mt-1 hidden">
+            Use <span className="font-mono text-indigo-600">password</span> as
+            the password.
+          </p>
+        </div>
+
+        {/* Button + Message */}
+        <div className="pt-4">
+          <button
+            onClick={handleLogin}
+            className="w-full px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg shadow-lg hover:bg-indigo-700 transition duration-300"
+          >
+            Login (Đăng nhập)
+          </button>
+
+          {error && (
+            <div style={{ textAlign: "center", marginTop: "20px" }}>
+              <p style={{ color: "red" }}>{error}</p>
+              <button
+                onClick={retryAction}
+                style={{
+                  marginTop: "10px",
+                  padding: "8px 16px",
+                  backgroundColor: "#1976d2",
+                  color: "white",
+                  border: "none",
+                  borderRadius: "4px",
+                  cursor: "pointer",
+                }}
+              >
+                Thử lại
+              </button>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
 
 // --- MAIN COMPONENT ---
 function App() {
@@ -140,18 +265,28 @@ function App() {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {Object.keys(QUESTION_SETS).map((setName) => (
-          <button
-            key={setName}
-            onClick={() => setSelectedSet(setName)}
-            className="w-full text-left p-6 bg-white border border-gray-200 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-[1.02]"
-          >
-            <h3 className="text-xl font-semibold text-indigo-700">{setName}</h3>
-            <p className="text-sm text-gray-500 mt-1">
-              {Object.keys(QUESTION_SETS[setName]).length} chủ đề
-            </p>
-          </button>
-        ))}
+        {[...Object.keys(QUESTION_SETS), ...Object.keys(EXTRA_PRACTICE)].map(
+          (setName) => (
+            <button
+              key={setName}
+              onClick={() =>
+                EXTRA_PRACTICE[setName]
+                  ? setSelectedSet(EXTRA_PRACTICE[setName]) // Go to login practice directly
+                  : setSelectedSet(setName)
+              }
+              className="w-full text-left p-6 bg-white border border-gray-200 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-[1.02]"
+            >
+              <h3 className="text-xl font-semibold text-indigo-700">
+                {setName}
+              </h3>
+              <p className="text-sm text-gray-500 mt-1">
+                {QUESTION_SETS[setName]
+                  ? `${Object.keys(QUESTION_SETS[setName]).length} chủ đề`
+                  : "Thực hành đăng nhập"}
+              </p>
+            </button>
+          )
+        )}
       </div>
     </div>
   );
@@ -336,6 +471,9 @@ function App() {
   // --- MAIN RENDER LOGIC ---
   let content;
   if (!selectedSet) content = renderSetSelection();
+  else if (selectedSet === "login")
+    content = <LoginPractice onBack={() => setSelectedSet(null)} />;
+  // Render login practice page
   else if (!selectedCategory) content = renderCategorySelection();
   else if (quizFinished) content = renderResults();
   else content = renderQuiz();
