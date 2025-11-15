@@ -405,11 +405,11 @@ function App() {
         )}
 
         <div className="bg-white p-8 rounded-2xl shadow-xl border border-gray-200 mt-6">
-          <h3 className="text-xl md:text-2xl font-semibold mb-6 text-gray-900 leading-relaxed">
+          <h3 className="text-2xl md:text-3xl font-semibold mb-6 text-gray-900 leading-relaxed">
             {currentQuestion.question}
           </h3>
 
-          <div className="grid grid-cols-1 grid-rows-2 gap-4 md:grid-cols-2 text-xl">
+          <div className="grid grid-cols-1 grid-rows-2 gap-4 md:grid-cols-2 text-2xl md:text-3xl">
             {currentQuestion.options.map((option, index) => (
               <button
                 key={index}
