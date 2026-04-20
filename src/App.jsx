@@ -67,7 +67,7 @@ const LoginPractice = ({ onBack }) => {
   const [error, setError] = React.useState("");
 
   const handleLogin = () => {
-    if (username === "336933275" && password === "wuxk7pxz") {
+    if (username === "336933275" && password === "8aq7jwd6") {
       setError("✅ Đăng nhập thành công!");
     } else {
       setError("❌ Sai rồi, UserID hoặc Passcode sai.");
