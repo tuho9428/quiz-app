@@ -1,18 +1,21 @@
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useEffect, useRef } from "react";
 import set1 from "./set1.json";
 import set2 from "./set2.json";
 import set3 from "./set3.json";
 import set4 from "./set4.json";
 import set5 from "./set5.json";
+import civics from "./civics.json";
 
 // --- DATA STRUCTURE ---
 // Each set is an object with multiple categories.
-const QUESTION_SETS = {
+const NAIL_QUESTION_SETS = {
   "Bộ đề 1 (2024)": set1,
   "Bộ đề 2 (2025)": set2,
   "Bộ đề 3 (2025)": set3,
   "Bộ đề 4 (2024)": set4,
 };
+
+const CIVICS_QUESTIONS = civics;
 
 const EXTRA_PRACTICE = {
   "Practice Login": "login",
@@ -33,6 +36,20 @@ const selectRandomQuestions = (questionPool, size) => {
   const shuffled = shuffleArray([...questionPool]);
   return shuffled.slice(0, size);
 };
+
+const getAudioPath = (question, language, part = "question") =>
+  question?.audio?.[part]?.[language] || null;
+
+const buildCivicAudioPaths = (number) => ({
+  question: {
+    en: `/audio/civics/en/Q${number}en.mp3`,
+    vi: `/audio/civics/vi/Q${number}vn.mp3`,
+  },
+  answer: {
+    en: `/audio/civics/en/A${number}en.mp3`,
+    vi: `/audio/civics/vi/A${number}vn.mp3`,
+  },
+});
 
 // --- ICON COMPONENT ---
 const CheckIcon = ({ color }) => (
@@ -193,6 +210,7 @@ const LoginPractice = ({ onBack }) => {
 
 // --- MAIN COMPONENT ---
 function App() {
+  const [selectedMode, setSelectedMode] = useState(null);
   const [selectedSet, setSelectedSet] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [quizQuestions, setQuizQuestions] = useState([]);
@@ -201,16 +219,78 @@ function App() {
   const [quizFinished, setQuizFinished] = useState(false);
   const [feedback, setFeedback] = useState(null);
   const [isLocked, setIsLocked] = useState(false);
+  const [showCivicAnswer, setShowCivicAnswer] = useState(false);
+  const audioRef = useRef(null);
+
+  const stopAudio = useCallback(() => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+      audioRef.current = null;
+    }
+  }, []);
+
+  const playAudio = useCallback(
+    (src) => {
+      if (!src) return;
+      stopAudio();
+      const audio = new Audio(src);
+      audioRef.current = audio;
+      audio.play().catch(() => {
+        audioRef.current = null;
+      });
+      audio.onended = () => {
+        if (audioRef.current === audio) {
+          audioRef.current = null;
+        }
+      };
+    },
+    [stopAudio]
+  );
+
+  useEffect(() => {
+    return () => {
+      stopAudio();
+    };
+  }, [stopAudio]);
+
+  const resetQuizState = useCallback(() => {
+    stopAudio();
+    setSelectedSet(null);
+    setSelectedCategory(null);
+    setQuizQuestions([]);
+    setCurrentQuestionIndex(0);
+    setScore(0);
+    setQuizFinished(false);
+    setFeedback(null);
+    setIsLocked(false);
+    setShowCivicAnswer(false);
+  }, [stopAudio]);
+
+  const startNailMode = useCallback(() => {
+    resetQuizState();
+    setSelectedMode("nails");
+  }, [resetQuizState]);
+
+  const startCivicMode = useCallback(() => {
+    resetQuizState();
+    setSelectedMode("civics");
+    setQuizQuestions(CIVICS_QUESTIONS.map((question) => ({
+      ...question,
+      audio: question.audio ?? buildCivicAudioPaths(question.number),
+    })));
+  }, [resetQuizState]);
 
   // --- HANDLERS ---
   const startQuiz = useCallback(
     (category) => {
+      stopAudio();
       setSelectedCategory(category);
       setQuizFinished(false);
       setCurrentQuestionIndex(0);
       setScore(0);
 
-      const pool = QUESTION_SETS[selectedSet][category] || [];
+      const pool = NAIL_QUESTION_SETS[selectedSet][category] || [];
       const size = Math.min(QUIZ_SIZE, pool.length);
       const newQuestions = selectRandomQuestions(pool, size);
 
@@ -222,7 +302,7 @@ function App() {
 
       setQuizQuestions(randomizedQuestions);
     },
-    [selectedSet]
+    [selectedSet, stopAudio]
   );
 
   const handleAnswer = useCallback(
@@ -252,6 +332,7 @@ function App() {
   );
 
   const restartSelection = useCallback(({ setName }) => {
+    stopAudio();
     setSelectedSet(setName);
     setSelectedCategory(null);
     setQuizQuestions([]);
@@ -260,11 +341,61 @@ function App() {
     setQuizFinished(false);
     setFeedback(null);
     setIsLocked(false);
-  }, []);
+    setShowCivicAnswer(false);
+  }, [stopAudio]);
 
   // --- UI COMPONENTS ---
+  const renderModeSelection = () => (
+    <div className="p-6">
+      <h2 className="text-3xl font-extrabold text-gray-800 mb-6">
+        Chọn bộ nội dung
+      </h2>
+      <p className="text-gray-600 mb-8">
+        Bộ nail vẫn giữ dạng trắc nghiệm, còn bộ quốc tịch Mỹ là dạng học theo
+        câu hỏi và đáp án.
+      </p>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <button
+          onClick={startNailMode}
+          className="w-full text-left p-6 bg-white border border-gray-200 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-[1.02]"
+        >
+          <h3 className="text-xl font-semibold text-indigo-700">
+            Nail Practice
+          </h3>
+          <p className="text-sm text-gray-500 mt-1">
+            4 bộ đề trắc nghiệm và phần luyện đăng nhập
+          </p>
+        </button>
+
+        <button
+          onClick={startCivicMode}
+          className="w-full text-left p-6 bg-white border border-gray-200 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-[1.02]"
+        >
+          <h3 className="text-xl font-semibold text-indigo-700">
+            U.S. Citizenship Test
+          </h3>
+          <p className="text-sm text-gray-500 mt-1">
+            100 câu hỏi song ngữ, có audio ElevenLabs
+          </p>
+        </button>
+      </div>
+    </div>
+  );
+
   const renderSetSelection = () => (
     <div className="p-6">
+      <div className="flex justify-end mb-2">
+        <button
+          onClick={() => {
+            stopAudio();
+            setSelectedMode(null);
+          }}
+          className="text-sm text-indigo-600 underline"
+        >
+          ← Đổi bộ nội dung
+        </button>
+      </div>
       <h2 className="text-3xl font-extrabold text-gray-800 mb-6">
         Chọn bộ đề luyện tập
       </h2>
@@ -273,7 +404,7 @@ function App() {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {[...Object.keys(QUESTION_SETS), ...Object.keys(EXTRA_PRACTICE)].map(
+        {[...Object.keys(NAIL_QUESTION_SETS), ...Object.keys(EXTRA_PRACTICE)].map(
           (setName) => (
             <button
               key={setName}
@@ -288,8 +419,8 @@ function App() {
                 {setName}
               </h3>
               <p className="text-sm text-gray-500 mt-1">
-                {QUESTION_SETS[setName]
-                  ? `${Object.keys(QUESTION_SETS[setName]).length} chủ đề`
+                {NAIL_QUESTION_SETS[setName]
+                  ? `${Object.keys(NAIL_QUESTION_SETS[setName]).length} chủ đề`
                   : "Thực hành đăng nhập"}
               </p>
             </button>
@@ -306,7 +437,10 @@ function App() {
           Chọn một chủ đề
         </h2>
         <button
-          onClick={() => setSelectedSet(null)}
+          onClick={() => {
+            stopAudio();
+            setSelectedSet(null);
+          }}
           className="text-sm text-indigo-600 underline"
         >
           ← Trở lại bộ đề
@@ -318,7 +452,7 @@ function App() {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {Object.keys(QUESTION_SETS[selectedSet]).map((category) => (
+        {Object.keys(NAIL_QUESTION_SETS[selectedSet]).map((category) => (
           <button
             key={category}
             onClick={() => startQuiz(category)}
@@ -328,13 +462,163 @@ function App() {
               {category}
             </h3>
             <p className="text-sm text-gray-500 mt-1">
-              {QUESTION_SETS[selectedSet][category].length} câu hỏi
+              {NAIL_QUESTION_SETS[selectedSet][category].length} câu hỏi
             </p>
           </button>
         ))}
       </div>
     </div>
   );
+
+  const renderCivicsStudy = () => {
+    const currentQuestion = quizQuestions[currentQuestionIndex];
+    const totalQuestions = quizQuestions.length;
+
+    if (!currentQuestion) {
+      return null;
+    }
+
+    const questionAudioEn = getAudioPath(currentQuestion, "en", "question");
+    const questionAudioVi = getAudioPath(currentQuestion, "vi", "question");
+    const answerAudioEn = getAudioPath(currentQuestion, "en", "answer");
+    const answerAudioVi = getAudioPath(currentQuestion, "vi", "answer");
+
+    const handlePrevious = () => {
+      stopAudio();
+      setShowCivicAnswer(false);
+      setCurrentQuestionIndex((index) => Math.max(0, index - 1));
+    };
+
+    const handleNext = () => {
+      stopAudio();
+      setShowCivicAnswer(false);
+      setCurrentQuestionIndex((index) => Math.min(totalQuestions - 1, index + 1));
+    };
+
+    return (
+      <div className="p-6">
+        <div className="mb-6 flex justify-between items-center text-sm font-medium text-indigo-700 bg-indigo-50 p-3 rounded-xl shadow-inner">
+          <p>U.S. Citizenship Test</p>
+          <p>
+            Câu hỏi {currentQuestionIndex + 1} / {totalQuestions}
+          </p>
+        </div>
+
+        <div className="flex justify-between items-center mb-4 gap-3">
+          <button
+            onClick={() => {
+              resetQuizState();
+              setSelectedMode(null);
+            }}
+            className="text-sm text-indigo-600 underline"
+          >
+            ← Chọn bộ khác
+          </button>
+
+          <div className="flex flex-wrap justify-end gap-2">
+            <button
+              onClick={() => playAudio(questionAudioEn)}
+              disabled={!questionAudioEn}
+              className="px-4 py-2 bg-indigo-100 text-indigo-700 text-sm font-semibold rounded-lg shadow-sm disabled:opacity-40 disabled:cursor-not-allowed"
+            >
+              Read EN
+            </button>
+            <button
+              onClick={() => playAudio(questionAudioVi)}
+              disabled={!questionAudioVi}
+              className="px-4 py-2 bg-indigo-100 text-indigo-700 text-sm font-semibold rounded-lg shadow-sm disabled:opacity-40 disabled:cursor-not-allowed"
+            >
+              Read VI
+            </button>
+            <button
+              onClick={stopAudio}
+              className="px-4 py-2 bg-gray-100 text-gray-700 text-sm font-semibold rounded-lg shadow-sm"
+            >
+              Stop
+            </button>
+          </div>
+        </div>
+
+        <div className="bg-white p-8 rounded-2xl shadow-xl border border-gray-200 mt-6">
+          <div className="mb-6">
+            <p className="text-sm font-semibold text-indigo-600 mb-2">
+              English
+            </p>
+            <h3 className="text-2xl md:text-3xl font-semibold text-gray-900 leading-relaxed">
+              {currentQuestion.question.en}
+            </h3>
+          </div>
+
+          <div className="mb-6">
+            <p className="text-sm font-semibold text-indigo-600 mb-2">
+              Tiếng Việt
+            </p>
+            <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
+              {currentQuestion.question.vi}
+            </p>
+          </div>
+
+          <div className="flex flex-wrap gap-3">
+            <button
+              onClick={() => setShowCivicAnswer((value) => !value)}
+              className="px-5 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow-lg hover:bg-indigo-700 transition duration-300"
+            >
+              {showCivicAnswer ? "Hide answer" : "Show answer"}
+            </button>
+            {showCivicAnswer && (
+              <>
+                <button
+                  onClick={() => playAudio(answerAudioEn)}
+                  disabled={!answerAudioEn}
+                  className="px-5 py-3 bg-green-100 text-green-800 font-semibold rounded-xl shadow-sm disabled:opacity-40 disabled:cursor-not-allowed"
+                >
+                  Answer EN
+                </button>
+                <button
+                  onClick={() => playAudio(answerAudioVi)}
+                  disabled={!answerAudioVi}
+                  className="px-5 py-3 bg-green-100 text-green-800 font-semibold rounded-xl shadow-sm disabled:opacity-40 disabled:cursor-not-allowed"
+                >
+                  Answer VI
+                </button>
+              </>
+            )}
+          </div>
+
+          {showCivicAnswer && (
+            <div className="mt-6 rounded-xl bg-green-50 border border-green-200 p-5">
+              <p className="text-sm font-semibold text-green-700 mb-2">
+                Answer
+              </p>
+              <p className="text-lg text-gray-900 mb-2">
+                {currentQuestion.answer.en}
+              </p>
+              <p className="text-base text-gray-700">
+                {currentQuestion.answer.vi}
+              </p>
+            </div>
+          )}
+        </div>
+
+        <div className="mt-4 flex justify-between items-center">
+          <button
+            onClick={handlePrevious}
+            disabled={currentQuestionIndex === 0}
+            className="px-6 py-3 bg-gray-100 text-gray-700 font-semibold rounded-xl shadow-sm disabled:opacity-40 disabled:cursor-not-allowed"
+          >
+            Previous
+          </button>
+          <button
+            onClick={handleNext}
+            disabled={currentQuestionIndex === totalQuestions - 1}
+            className="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow-lg hover:bg-indigo-700 transition duration-300 disabled:opacity-40 disabled:cursor-not-allowed"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    );
+  };
 
   const renderQuiz = () => {
     const currentQuestion = quizQuestions[currentQuestionIndex];
@@ -378,7 +662,10 @@ function App() {
         </div>
         <div className="flex justify-end">
           <button
-            onClick={() => setSelectedCategory(null)}
+            onClick={() => {
+              stopAudio();
+              setSelectedCategory(null);
+            }}
             className="text-sm text-indigo-600 underline"
           >
             ← Trở lại chủ đề
@@ -478,13 +765,24 @@ function App() {
 
   // --- MAIN RENDER LOGIC ---
   let content;
-  if (!selectedSet) content = renderSetSelection();
-  else if (selectedSet === "login")
-    content = <LoginPractice onBack={() => setSelectedSet(null)} />;
-  // Render login practice page
-  else if (!selectedCategory) content = renderCategorySelection();
-  else if (quizFinished) content = renderResults();
-  else content = renderQuiz();
+  if (!selectedMode) content = renderModeSelection();
+  else if (selectedMode === "nails") {
+    if (!selectedSet) content = renderSetSelection();
+    else if (selectedSet === "login")
+      content = (
+        <LoginPractice
+          onBack={() => {
+            stopAudio();
+            setSelectedSet(null);
+          }}
+        />
+      );
+    else if (!selectedCategory) content = renderCategorySelection();
+    else if (quizFinished) content = renderResults();
+    else content = renderQuiz();
+  } else if (selectedMode === "civics") {
+    content = renderCivicsStudy();
+  }
 
   return (
     <div className="min-h-screen bg-gray-50 flex items-start justify-center p-4">
