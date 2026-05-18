@@ -425,8 +425,8 @@
       "vi": "Một trong các Thượng nghị sĩ Hoa Kỳ của tiểu bang bạn hiện nay là ai?"
     },
     "answer": {
-      "en": "Answers vary by state.",
-      "vi": "Câu trả lời tùy theo tiểu bang."
+      "en": "Patty Murray (Answers vary by state/year.)",
+      "vi": "Patty Murray (Câu trả lời tùy theo tiểu bang/năm.)"
     },
     "audio": {
       "question": {
@@ -491,8 +491,8 @@
       "vi": "Kể tên Dân biểu Hoa Kỳ của bạn."
     },
     "answer": {
-      "en": "Answers vary.",
-      "vi": "Câu trả lời tùy nơi ở."
+      "en": "Adam Smith (Answers vary by district/year.)",
+      "vi": "Adam Smith (Câu trả lời tùy nơi ở/năm.)"
     },
     "audio": {
       "question": {
@@ -601,8 +601,8 @@
       "vi": "Tên Tổng thống Hoa Kỳ hiện nay là gì?"
     },
     "answer": {
-      "en": "Depends on current year.",
-      "vi": "Tùy theo năm hiện tại."
+      "en": "Donald Trump (Depends on current year.)",
+      "vi": "Donald Trump (Tùy theo năm hiện tại.)"
     },
     "audio": {
       "question": {
@@ -623,8 +623,8 @@
       "vi": "Tên Phó Tổng thống Hoa Kỳ hiện nay là gì?"
     },
     "answer": {
-      "en": "Depends on current year.",
-      "vi": "Tùy theo năm hiện tại."
+      "en": "JD Vance (Depends on current year.)",
+      "vi": "JD Vance (Tùy theo năm hiện tại.)"
     },
     "audio": {
       "question": {
