@@ -3,8 +3,8 @@ import set1 from "./set1.json";
 import set2 from "./set2.json";
 import set3 from "./set3.json";
 import set4 from "./set4.json";
-import set5 from "./set5.json";
 import civics from "./civics.json";
+import PeonyVocabularyApp from "./PeonyVocabularyApp";
 
 // --- DATA STRUCTURE ---
 // Each set is an object with multiple categories.
@@ -51,6 +51,26 @@ const buildCivicAudioPaths = (number) => ({
   },
 });
 
+const VALID_APP_MODES = new Set(["nails", "civics", "peony"]);
+
+const getModeFromUrl = () => {
+  const mode = new URLSearchParams(window.location.search).get("app");
+  return VALID_APP_MODES.has(mode) ? mode : null;
+};
+
+const updateModeUrl = (mode) => {
+  const url = new URL(window.location.href);
+  if (mode) url.searchParams.set("app", mode);
+  else url.searchParams.delete("app");
+  window.history.pushState({ app: mode }, "", `${url.pathname}${url.search}${url.hash}`);
+};
+
+const getCivicsQuestionsWithAudio = () =>
+  CIVICS_QUESTIONS.map((question) => ({
+    ...question,
+    audio: question.audio ?? buildCivicAudioPaths(question.number),
+  }));
+
 // --- ICON COMPONENT ---
 const CheckIcon = ({ color }) => (
   <svg
@@ -89,16 +109,6 @@ const LoginPractice = ({ onBack }) => {
     } else {
       setError("❌ Sai rồi, UserID hoặc Passcode sai.");
     }
-  };
-
-  const clearError = () => {
-    // Clear input fields and error message
-    setError(null);
-  };
-  const clearInputField = () => {
-    // Clear input fields and error message
-    setUsername("");
-    setPassword("");
   };
 
   const retryAction = () => {
@@ -210,10 +220,12 @@ const LoginPractice = ({ onBack }) => {
 
 // --- MAIN COMPONENT ---
 function App() {
-  const [selectedMode, setSelectedMode] = useState(null);
+  const [selectedMode, setSelectedMode] = useState(getModeFromUrl);
   const [selectedSet, setSelectedSet] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState(null);
-  const [quizQuestions, setQuizQuestions] = useState([]);
+  const [quizQuestions, setQuizQuestions] = useState(() =>
+    getModeFromUrl() === "civics" ? getCivicsQuestionsWithAudio() : []
+  );
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [quizFinished, setQuizFinished] = useState(false);
@@ -270,16 +282,50 @@ function App() {
   const startNailMode = useCallback(() => {
     resetQuizState();
     setSelectedMode("nails");
+    updateModeUrl("nails");
   }, [resetQuizState]);
 
   const startCivicMode = useCallback(() => {
     resetQuizState();
     setSelectedMode("civics");
-    setQuizQuestions(CIVICS_QUESTIONS.map((question) => ({
-      ...question,
-      audio: question.audio ?? buildCivicAudioPaths(question.number),
-    })));
+    setQuizQuestions(getCivicsQuestionsWithAudio());
+    updateModeUrl("civics");
   }, [resetQuizState]);
+
+  const startPeonyMode = useCallback(() => {
+    resetQuizState();
+    setSelectedMode("peony");
+    updateModeUrl("peony");
+  }, [resetQuizState]);
+
+  const leaveMode = useCallback(() => {
+    resetQuizState();
+    setSelectedMode(null);
+    updateModeUrl(null);
+  }, [resetQuizState]);
+
+  useEffect(() => {
+    const syncModeFromUrl = () => {
+      const mode = getModeFromUrl();
+      resetQuizState();
+      setSelectedMode(mode);
+      if (mode === "civics") {
+        setQuizQuestions(getCivicsQuestionsWithAudio());
+      }
+    };
+
+    window.addEventListener("popstate", syncModeFromUrl);
+    return () => window.removeEventListener("popstate", syncModeFromUrl);
+  }, [resetQuizState]);
+
+  useEffect(() => {
+    const titles = {
+      nails: "Nail Practice",
+      civics: "U.S. Citizenship Test",
+      peony: "Tiếng Anh Chuẩn Bị Bếp",
+    };
+    document.title = selectedMode ? `${titles[selectedMode]} | Quiz App` : "Quiz App";
+  }, [selectedMode]);
 
   // --- HANDLERS ---
   const startQuiz = useCallback(
@@ -351,11 +397,10 @@ function App() {
         Chọn bộ nội dung
       </h2>
       <p className="text-gray-600 mb-8">
-        Bộ nail vẫn giữ dạng trắc nghiệm, còn bộ quốc tịch Mỹ là dạng học theo
-        câu hỏi và đáp án.
+        Chọn bộ đề trắc nghiệm, quốc tịch Mỹ, hoặc tiếng Anh chuẩn bị nguyên liệu.
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <button
           onClick={startNailMode}
           className="w-full text-left p-6 bg-white border border-gray-200 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-[1.02]"
@@ -379,6 +424,18 @@ function App() {
             100 câu hỏi song ngữ, có audio ElevenLabs
           </p>
         </button>
+
+        <button
+          onClick={startPeonyMode}
+          className="w-full text-left p-6 bg-white border border-gray-200 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-[1.02]"
+        >
+          <h3 className="text-xl font-semibold text-indigo-700">
+            Tiếng Anh Chuẩn Bị Bếp
+          </h3>
+          <p className="text-sm text-gray-500 mt-1">
+            42 thẻ từ vựng, audio và bài tập đọc phiếu bếp
+          </p>
+        </button>
       </div>
     </div>
   );
@@ -387,10 +444,7 @@ function App() {
     <div className="p-6">
       <div className="flex justify-end mb-2">
         <button
-          onClick={() => {
-            stopAudio();
-            setSelectedMode(null);
-          }}
+          onClick={leaveMode}
           className="text-sm text-indigo-600 underline"
         >
           ← Đổi bộ nội dung
@@ -506,10 +560,7 @@ function App() {
 
         <div className="flex justify-between items-center mb-4 gap-3">
           <button
-            onClick={() => {
-              resetQuizState();
-              setSelectedMode(null);
-            }}
+            onClick={leaveMode}
             className="text-sm text-indigo-600 underline"
           >
             ← Chọn bộ khác
@@ -782,6 +833,14 @@ function App() {
     else content = renderQuiz();
   } else if (selectedMode === "civics") {
     content = renderCivicsStudy();
+  }
+
+  if (selectedMode === "peony") {
+    return (
+      <PeonyVocabularyApp
+        onBack={leaveMode}
+      />
+    );
   }
 
   return (
