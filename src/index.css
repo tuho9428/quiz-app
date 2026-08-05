@@ -388,15 +388,20 @@
 
   .peony-card-image-wrap {
     position: relative;
-    min-height: 380px;
+    display: grid;
+    place-items: center;
+    min-height: 280px;
+    max-height: 320px;
     overflow: hidden;
-    background: #dfe9e5;
+    padding: 16px;
+    background: #f4f7f5;
   }
 
   .peony-card-image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    max-height: 288px;
+    object-fit: contain;
   }
 
   .peony-image-note {
@@ -659,8 +664,12 @@
   }
 
   .peony-card-image-wrap {
-    min-height: 260px;
-    max-height: 36vh;
+    min-height: 210px;
+    max-height: 260px;
+  }
+
+  .peony-card-image {
+    max-height: 228px;
   }
 
   .peony-flashcard-copy {
