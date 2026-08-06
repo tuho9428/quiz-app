@@ -434,14 +434,15 @@
   }
 
   .peony-audio-button {
-    min-height: 58px;
-    margin-top: 22px;
-    padding: 12px 18px;
+    align-self: flex-start;
+    min-height: 46px;
+    margin-top: 14px;
+    padding: 8px 13px;
     border: 2px solid var(--peony-accent);
     border-radius: 12px;
     background: #ffffff;
     color: var(--peony-accent);
-    font-size: 1.12rem;
+    font-size: 0.98rem;
     font-weight: 800;
   }
 
@@ -450,19 +451,9 @@
     flex-direction: column;
     justify-content: center;
     min-height: 150px;
-    margin-top: 26px;
-    padding-top: 24px;
+    margin-top: 18px;
+    padding-top: 18px;
     border-top: 2px solid var(--peony-line);
-  }
-
-  .peony-answer-reveal > button {
-    min-height: 58px;
-    padding: 12px;
-    border-radius: 12px;
-    background: var(--peony-accent);
-    color: #ffffff;
-    font-size: 1.1rem;
-    font-weight: 800;
   }
 
   .peony-answer-reveal strong {
@@ -477,31 +468,12 @@
     font-size: 1rem;
   }
 
-  .peony-rating-actions {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    margin-top: 14px;
-  }
-
-  .peony-rating-actions button,
   .peony-feedback button {
     min-height: 62px;
     padding: 14px 20px;
     border-radius: 12px;
     font-size: 1.15rem;
     font-weight: 800;
-  }
-
-  .peony-rating-actions .is-review {
-    border: 2px solid var(--peony-accent);
-    background: #ffffff;
-    color: var(--peony-accent);
-  }
-
-  .peony-rating-actions .is-known {
-    background: var(--peony-ink);
-    color: #ffffff;
   }
 
   .peony-quiz-question {
@@ -513,7 +485,7 @@
   }
 
   .peony-quiz-question .peony-audio-button {
-    width: 100%;
+    width: auto;
   }
 
   .peony-options {
@@ -715,10 +687,6 @@
 
   .peony-session-bar p {
     display: none;
-  }
-
-  .peony-rating-actions {
-    grid-template-columns: 1fr;
   }
 
   .peony-feedback button {
