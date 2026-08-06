@@ -282,7 +282,7 @@
 
   .peony-practice-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 12px;
   }
 
@@ -593,6 +593,27 @@
     margin: 20px 0 28px;
     color: var(--peony-muted);
     font-size: 1.15rem;
+  }
+
+  .peony-study-actions {
+    display: grid;
+    gap: 12px;
+  }
+
+  .peony-study-actions .peony-primary-action {
+    margin-top: 0;
+  }
+
+  .peony-secondary-action {
+    width: 100%;
+    min-height: 64px;
+    padding: 14px 24px;
+    border: 2px solid var(--peony-ink);
+    border-radius: 12px;
+    background: #ffffff;
+    color: var(--peony-ink);
+    font-size: 1.15rem;
+    font-weight: 800;
   }
 }
 

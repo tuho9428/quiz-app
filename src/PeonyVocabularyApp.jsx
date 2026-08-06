@@ -113,6 +113,7 @@ function PeonyVocabularyApp({ onBack }) {
   const [quizAnswer, setQuizAnswer] = useState(null);
   const [quizScore, setQuizScore] = useState(0);
   const [quizLabel, setQuizLabel] = useState("");
+  const [quizEndsDailyStudy, setQuizEndsDailyStudy] = useState(false);
   const [completedSummary, setCompletedSummary] = useState(null);
   const quizFeedbackRef = useRef(null);
 
@@ -201,25 +202,43 @@ function PeonyVocabularyApp({ onBack }) {
     setScreen("flashcards");
   };
 
+  const finishDailyStudy = (summary = null) => {
+    const nextDay = Math.min(PEONY_TOTAL_DAYS, selectedDay + 1);
+
+    setProgress((current) => ({
+      ...current,
+      currentDay: Math.max(current.currentDay, nextDay),
+      sessions: current.sessions + 1,
+      lastStudied: new Date().toISOString(),
+    }));
+    setSelectedDay(nextDay);
+    setAdvanceAfterStudy(false);
+
+    if (summary) {
+      setCompletedSummary(summary);
+      setScreen("complete");
+      return;
+    }
+
+    setCompletedSummary(null);
+    setScreen("home");
+  };
+
   const nextFlashcard = () => {
     const cardId = studyQueue[studyIndex];
     recordResult([cardId], true);
 
     if (studyIndex + 1 >= studyQueue.length) {
+      if (advanceAfterStudy) {
+        setScreen("study-check");
+        return;
+      }
+
       setProgress((current) => ({
         ...current,
-        currentDay: advanceAfterStudy
-          ? Math.min(
-              PEONY_TOTAL_DAYS,
-              Math.max(current.currentDay, selectedDay + 1)
-            )
-          : current.currentDay,
         sessions: current.sessions + 1,
         lastStudied: new Date().toISOString(),
       }));
-      if (advanceAfterStudy) {
-        setSelectedDay((day) => Math.min(PEONY_TOTAL_DAYS, day + 1));
-      }
       setScreen("home");
       return;
     }
@@ -227,7 +246,12 @@ function PeonyVocabularyApp({ onBack }) {
     setStudyIndex((index) => index + 1);
   };
 
-  const startQuiz = (cards, label, testEveryCard = false) => {
+  const startQuiz = (
+    cards,
+    label,
+    testEveryCard = false,
+    endsDailyStudy = false
+  ) => {
     if (!cards.length) return;
     const shuffledCards = shuffle(cards);
     const selectedCards = testEveryCard
@@ -239,6 +263,7 @@ function PeonyVocabularyApp({ onBack }) {
     setQuizAnswer(null);
     setQuizScore(0);
     setQuizLabel(label);
+    setQuizEndsDailyStudy(endsDailyStudy);
     setScreen("quiz");
   };
 
@@ -248,6 +273,7 @@ function PeonyVocabularyApp({ onBack }) {
     setQuizAnswer(null);
     setQuizScore(0);
     setQuizLabel("Luyện đọc phiếu bếp");
+    setQuizEndsDailyStudy(false);
     setScreen("quiz");
   };
 
@@ -269,13 +295,13 @@ function PeonyVocabularyApp({ onBack }) {
         const nextItems = [...items];
         const repeated = currentQuestion.id.startsWith("instruction-")
           ? buildInstructionQuestion(
-              PEONY_INSTRUCTION_PRACTICE.find(
-                (item) => `instruction-${item.id}` === currentQuestion.id
-              )
+            PEONY_INSTRUCTION_PRACTICE.find(
+              (item) => `instruction-${item.id}` === currentQuestion.id
             )
+          )
           : buildVocabularyQuestion(
-              PEONY_CARDS.find((card) => card.id === currentQuestion.id)
-            );
+            PEONY_CARDS.find((card) => card.id === currentQuestion.id)
+          );
         nextItems.splice(Math.min(quizIndex + 3, nextItems.length), 0, repeated);
         return nextItems;
       });
@@ -284,10 +310,24 @@ function PeonyVocabularyApp({ onBack }) {
 
   const nextQuizQuestion = () => {
     if (quizIndex + 1 >= quizItems.length) {
-      finishSession({
+      const summary = {
         title: "Đã làm xong",
         detail: `Bạn trả lời đúng ${quizScore} câu ngay lần đầu. Câu sai đã được hỏi lại.`,
-      });
+      };
+
+      if (quizEndsDailyStudy) {
+        setQuizEndsDailyStudy(false);
+        finishDailyStudy({
+          ...summary,
+          actionLabel:
+            selectedDay < PEONY_TOTAL_DAYS
+              ? "Xong, sang bộ mới"
+              : "Xong, về trang học",
+        });
+        return;
+      }
+
+      finishSession(summary);
       return;
     }
     setQuizIndex((index) => index + 1);
@@ -303,6 +343,8 @@ function PeonyVocabularyApp({ onBack }) {
   const goHome = () => {
     window.speechSynthesis?.cancel();
     setScreen("home");
+    setAdvanceAfterStudy(false);
+    setQuizEndsDailyStudy(false);
     setCompletedSummary(null);
   };
 
@@ -336,9 +378,9 @@ function PeonyVocabularyApp({ onBack }) {
             disabled={selectedDay === 1}
             onClick={() => setSelectedDay((day) => Math.max(1, day - 1))}
           >
-            Ngày trước
+            Bộ trước
           </button>
-          <strong>Ngày {selectedDay} / {PEONY_TOTAL_DAYS}</strong>
+          <strong>Bộ {selectedDay} / {PEONY_TOTAL_DAYS}</strong>
           <button
             type="button"
             disabled={selectedDay === PEONY_TOTAL_DAYS}
@@ -346,7 +388,7 @@ function PeonyVocabularyApp({ onBack }) {
               setSelectedDay((day) => Math.min(PEONY_TOTAL_DAYS, day + 1))
             }
           >
-            Ngày sau
+            Bộ sau
           </button>
         </div>
         <div className="peony-section-heading">
@@ -376,7 +418,7 @@ function PeonyVocabularyApp({ onBack }) {
         <button
           type="button"
           className="peony-primary-action"
-          onClick={() => startFlashcards(dayCards, `Ngày ${selectedDay}`, true)}
+          onClick={() => startFlashcards(dayCards, `Bộ ${selectedDay}`, true)}
         >
           Bắt đầu học {dayCards.length} từ
         </button>
@@ -394,10 +436,7 @@ function PeonyVocabularyApp({ onBack }) {
           <strong>Kiểm tra 4 đáp án</strong>
           <small>Kiểm tra ba từ của ngày {selectedDay}</small>
         </button>
-        <button type="button" className="peony-practice-card" onClick={startInstructionQuiz}>
-          <strong>Luyện đọc phiếu bếp</strong>
-          <small>Ví dụ: (M) chicken, Last: green onion</small>
-        </button>
+
         <button
           type="button"
           className="peony-practice-card"
@@ -413,15 +452,7 @@ function PeonyVocabularyApp({ onBack }) {
               : "Học một bài trước để mở phần này"}
           </small>
         </button>
-        <button
-          type="button"
-          className="peony-practice-card"
-          onClick={() => startFlashcards(PEONY_CARDS, "Học tất cả từ")}
-        >
-          <strong>Học tất cả từ</strong>
-          <small>{PEONY_TOTAL_CARDS} từ trong bộ này</small>
-        </button>
-        <button
+                <button
           type="button"
           className="peony-practice-card"
           onClick={() =>
@@ -443,6 +474,15 @@ function PeonyVocabularyApp({ onBack }) {
         <button
           type="button"
           className="peony-practice-card"
+          onClick={() => startFlashcards(PEONY_CARDS, "Học tất cả từ")}
+        >
+          <strong>Học tất cả từ</strong>
+          <small>{PEONY_TOTAL_CARDS} từ trong bộ này</small>
+        </button>
+
+        <button
+          type="button"
+          className="peony-practice-card"
           onClick={() =>
             startQuiz(PEONY_CARDS, "Kiểm tra tất cả từ", true)
           }
@@ -458,6 +498,10 @@ function PeonyVocabularyApp({ onBack }) {
         >
           <strong>Ôn từ chưa nhớ</strong>
           <small>{missedCards.length ? `Có ${missedCards.length} từ cần ôn lại` : "Hiện không có từ nào cần ôn"}</small>
+        </button>
+        <button type="button" className="peony-practice-card" onClick={startInstructionQuiz}>
+          <strong>Luyện đọc phiếu bếp</strong>
+          <small>Ví dụ: (M) chicken, Last: green onion</small>
         </button>
       </section>
 
@@ -495,8 +539,50 @@ function PeonyVocabularyApp({ onBack }) {
           </div>
         </div>
         <button type="button" className="peony-primary-action" onClick={nextFlashcard}>
-          {studyIndex + 1 >= studyQueue.length ? "Xong" : "Tiếp theo"}
+          {studyIndex + 1 >= studyQueue.length
+            ? advanceAfterStudy
+              ? "Tiếp tục"
+              : "Xong"
+            : "Tiếp theo"}
         </button>
+      </section>
+    );
+  };
+
+  const renderStudyCheck = () => {
+    const studiedCards = studyQueue
+      .map((cardId) => PEONY_CARDS.find((card) => card.id === cardId))
+      .filter(Boolean);
+    const hasNextDay = selectedDay < PEONY_TOTAL_DAYS;
+
+    return (
+      <section className="peony-complete peony-study-check">
+        <p className="peony-label">Đã học xong {studiedCards.length} từ</p>
+        <h2>Muốn kiểm tra ngay không?</h2>
+        <p>Kiểm tra ngắn để nhớ từ lâu hơn.</p>
+        <div className="peony-study-actions">
+          <button
+            type="button"
+            className="peony-primary-action"
+            onClick={() =>
+              startQuiz(
+                studiedCards,
+                `Kiểm tra ${studiedCards.length} từ vừa học`,
+                true,
+                true
+              )
+            }
+          >
+            Kiểm tra {studiedCards.length} từ
+          </button>
+          <button
+            type="button"
+            className="peony-secondary-action"
+            onClick={() => finishDailyStudy()}
+          >
+            {hasNextDay ? "Xong, sang bộ mới" : "Xong, về trang học"}
+          </button>
+        </div>
       </section>
     );
   };
@@ -566,7 +652,9 @@ function PeonyVocabularyApp({ onBack }) {
       <p className="peony-label">Đã lưu kết quả</p>
       <h2>{completedSummary?.title}</h2>
       <p>{completedSummary?.detail}</p>
-      <button type="button" className="peony-primary-action" onClick={goHome}>Về trang học</button>
+      <button type="button" className="peony-primary-action" onClick={goHome}>
+        {completedSummary?.actionLabel || "Về trang học"}
+      </button>
     </section>
   );
 
@@ -579,11 +667,12 @@ function PeonyVocabularyApp({ onBack }) {
         <div>
           <strong>Tiếng Anh nhà bếp</strong>
         </div>
-        <span className="peony-day-badge">Ngày {progress.currentDay}</span>
+        <span className="peony-day-badge">Bộ {progress.currentDay}</span>
       </header>
       <main>
         {screen === "home" && renderHome()}
         {screen === "flashcards" && renderFlashcards()}
+        {screen === "study-check" && renderStudyCheck()}
         {screen === "quiz" && renderQuiz()}
         {screen === "complete" && renderComplete()}
       </main>
