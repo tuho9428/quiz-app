@@ -2,8 +2,11 @@ import { useEffect, useState } from "react";
 import fallbackImage from "./assets/no-projects.png";
 import {
   PEONY_CARDS,
+  PEONY_CARDS_PER_DAY,
   PEONY_INSTRUCTION_PRACTICE,
   PEONY_STORAGE_KEY,
+  PEONY_TOTAL_CARDS,
+  PEONY_TOTAL_DAYS,
 } from "./peonyVocabularyData";
 
 const EMPTY_PROGRESS = {
@@ -30,7 +33,10 @@ const readProgress = () => {
     return {
       ...EMPTY_PROGRESS,
       ...saved,
-      currentDay: Math.min(14, Math.max(1, Number(saved.currentDay) || 1)),
+      currentDay: Math.min(
+        PEONY_TOTAL_DAYS,
+        Math.max(1, Number(saved.currentDay) || 1)
+      ),
       cards: saved.cards && typeof saved.cards === "object" ? saved.cards : {},
     };
   } catch {
@@ -171,13 +177,16 @@ function PeonyVocabularyApp({ onBack }) {
     setProgress((current) => ({
       ...current,
       currentDay: shouldAdvance
-        ? Math.min(14, Math.max(current.currentDay, selectedDay + 1))
+        ? Math.min(
+            PEONY_TOTAL_DAYS,
+            Math.max(current.currentDay, selectedDay + 1)
+          )
         : current.currentDay,
       sessions: current.sessions + 1,
       lastStudied: new Date().toISOString(),
     }));
     if (shouldAdvance) {
-      setSelectedDay((day) => Math.min(14, day + 1));
+      setSelectedDay((day) => Math.min(PEONY_TOTAL_DAYS, day + 1));
     }
     setCompletedSummary(summary);
     setScreen("complete");
@@ -303,17 +312,21 @@ function PeonyVocabularyApp({ onBack }) {
     <>
       <section className="peony-hero">
         <div>
-          <p className="peony-kicker">Mỗi ngày học 3 từ</p>
+          <p className="peony-kicker">Mỗi ngày học tối đa {PEONY_CARDS_PER_DAY} từ</p>
           <h1>Tiếng Anh chuẩn bị bếp</h1>
           <p className="peony-subtitle">
             Học chậm, nghe rõ, và ôn lại những từ chưa nhớ.
           </p>
         </div>
         <div className="peony-progress-summary" aria-label="Tiến độ học">
-          <strong>{masteredCards.length}<span>/42</span></strong>
+          <strong>{masteredCards.length}<span>/{PEONY_TOTAL_CARDS}</span></strong>
           <p>từ đã trả lời đúng</p>
           <div className="peony-progress-track" aria-hidden="true">
-            <span style={{ width: `${(masteredCards.length / 42) * 100}%` }} />
+            <span
+              style={{
+                width: `${(masteredCards.length / PEONY_TOTAL_CARDS) * 100}%`,
+              }}
+            />
           </div>
         </div>
       </section>
@@ -327,18 +340,22 @@ function PeonyVocabularyApp({ onBack }) {
           >
             Ngày trước
           </button>
-          <strong>Ngày {selectedDay} / 14</strong>
+          <strong>Ngày {selectedDay} / {PEONY_TOTAL_DAYS}</strong>
           <button
             type="button"
-            disabled={selectedDay === 14}
-            onClick={() => setSelectedDay((day) => Math.min(14, day + 1))}
+            disabled={selectedDay === PEONY_TOTAL_DAYS}
+            onClick={() =>
+              setSelectedDay((day) => Math.min(PEONY_TOTAL_DAYS, day + 1))
+            }
           >
             Ngày sau
           </button>
         </div>
         <div className="peony-section-heading">
-          <h2 id="day-heading">Ba từ hôm nay</h2>
-          <span>{dayCards.filter((card) => progress.cards[card.id]?.reviews).length} / 3 đã học</span>
+          <h2 id="day-heading">Từ của ngày này</h2>
+          <span>
+            {dayCards.filter((card) => progress.cards[card.id]?.reviews).length} / {dayCards.length} đã học
+          </span>
         </div>
 
         <div className="peony-today-list">
@@ -363,7 +380,7 @@ function PeonyVocabularyApp({ onBack }) {
           className="peony-primary-action"
           onClick={() => startFlashcards(dayCards, `Ngày ${selectedDay}`, true)}
         >
-          Bắt đầu học 3 từ
+          Bắt đầu học {dayCards.length} từ
         </button>
       </section>
 

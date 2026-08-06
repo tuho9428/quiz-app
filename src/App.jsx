@@ -433,7 +433,7 @@ function App() {
             Tiếng Anh Chuẩn Bị Bếp
           </h3>
           <p className="text-sm text-gray-500 mt-1">
-            42 thẻ từ vựng, audio và bài tập đọc phiếu bếp
+            Từ vựng, audio và bài tập đọc phiếu bếp
           </p>
         </button>
       </div>
