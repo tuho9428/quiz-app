@@ -5,6 +5,7 @@ import set3 from "./set3.json";
 import set4 from "./set4.json";
 import civics from "./civics.json";
 import PeonyVocabularyApp from "./PeonyVocabularyApp";
+import VocabularyApp from "./VocabularyApp";
 
 // --- DATA STRUCTURE ---
 // Each set is an object with multiple categories.
@@ -51,7 +52,7 @@ const buildCivicAudioPaths = (number) => ({
   },
 });
 
-const VALID_APP_MODES = new Set(["nails", "civics", "peony"]);
+const VALID_APP_MODES = new Set(["nails", "civics", "peony", "vocabulary"]);
 
 const getModeFromUrl = () => {
   const mode = new URLSearchParams(window.location.search).get("app");
@@ -298,6 +299,12 @@ function App() {
     updateModeUrl("peony");
   }, [resetQuizState]);
 
+  const startVocabularyMode = useCallback(() => {
+    resetQuizState();
+    setSelectedMode("vocabulary");
+    updateModeUrl("vocabulary");
+  }, [resetQuizState]);
+
   const leaveMode = useCallback(() => {
     resetQuizState();
     setSelectedMode(null);
@@ -323,6 +330,7 @@ function App() {
       nails: "Nail Practice",
       civics: "U.S. Citizenship Test",
       peony: "Tiếng Anh Chuẩn Bị Bếp",
+      vocabulary: "Từ vựng quốc tịch USCIS 2025",
     };
     document.title = selectedMode ? `${titles[selectedMode]} | Quiz App` : "Quiz App";
   }, [selectedMode]);
@@ -397,10 +405,10 @@ function App() {
         Chọn bộ nội dung
       </h2>
       <p className="text-gray-600 mb-8">
-        Chọn bộ đề trắc nghiệm, quốc tịch Mỹ, hoặc tiếng Anh chuẩn bị nguyên liệu.
+        Chọn bộ đề trắc nghiệm, câu hỏi quốc tịch, từ vựng quốc tịch, hoặc tiếng Anh nhà bếp.
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <button
           onClick={startNailMode}
           className="w-full text-left p-6 bg-white border border-gray-200 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-[1.02]"
@@ -422,6 +430,18 @@ function App() {
           </h3>
           <p className="text-sm text-gray-500 mt-1">
             100 câu hỏi song ngữ, có audio ElevenLabs
+          </p>
+        </button>
+
+        <button
+          onClick={startVocabularyMode}
+          className="w-full text-left p-6 bg-white border border-gray-200 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-[1.02]"
+        >
+          <h3 className="text-xl font-semibold text-indigo-700">
+            Học từ vựng quốc tịch
+          </h3>
+          <p className="text-sm text-gray-500 mt-1">
+            USCIS 2025: 12 bộ từ, nghe cách đọc và luyện chọn đáp án
           </p>
         </button>
 
@@ -841,6 +861,10 @@ function App() {
         onBack={leaveMode}
       />
     );
+  }
+
+  if (selectedMode === "vocabulary") {
+    return <VocabularyApp onBack={leaveMode} />;
   }
 
   return (
