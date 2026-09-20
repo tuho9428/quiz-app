@@ -330,9 +330,9 @@ function App() {
       nails: "Nail Practice",
       civics: "U.S. Citizenship Test",
       peony: "Tiếng Anh Chuẩn Bị Bếp",
-      vocabulary: "Từ vựng quốc tịch USCIS 2025",
+      vocabulary: "US Citizenship Vocabulary USCIS 2025",
     };
-    document.title = selectedMode ? `${titles[selectedMode]} | Quiz App` : "Quiz App";
+    document.title = selectedMode ? `${titles[selectedMode]} | Quiz App` : "US Citizenship Study";
   }, [selectedMode]);
 
   // --- HANDLERS ---
