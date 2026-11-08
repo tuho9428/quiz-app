@@ -300,10 +300,8 @@ function App() {
   }, [resetQuizState]);
 
   const startVocabularyMode = useCallback(() => {
-    resetQuizState();
-    setSelectedMode("vocabulary");
-    updateModeUrl("vocabulary");
-  }, [resetQuizState]);
+    window.location.assign("https://vocabulary-sepia-three.vercel.app/");
+  }, []);
 
   const leaveMode = useCallback(() => {
     resetQuizState();
